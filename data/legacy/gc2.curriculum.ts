@@ -1,0 +1,5797 @@
+// GC2 (Gracie Combatives 2.0) Curriculum Data
+import type { Curriculum } from '@/core/domain/curriculum.types';
+
+export const gc2Curriculum: Curriculum = {
+    id: 'gc2',
+    name: 'Gracie Combatives 2.0',
+    description: 'Fundamental self-defense techniques for beginners',
+    totalLessons: 36,
+    testDrills: 'gc2',
+    lessons: [
+      {
+            "id": "gc2-l1",
+            "lessonNumber": 1,
+            "technique": "Trap & Roll Escape",
+            "position": "Mount",
+            "overview": "The Trap & Roll Escape is a simple, reliable way to reverse the single worst position in a fight.",
+            "mindsetMinute": "Because being mounted is so dangerous, we present several techniques in this course to prevent it from happening in the first place. View the Trap & Roll Escape as an emergency tool of last resort.",
+            "streetTip": "While concrete will give you the best traction while standing, it may be the most unforgiving terrain to fight on. Be aware of what parts of your body will impact the ground.",
+            "slices": [
+                  {
+                        "id": "gc2-l1-s1",
+                        "sliceNumber": 1,
+                        "title": "Standard Variation",
+                        "indicator": "Opponent grabs your chest or throat with one or both hands",
+                        "essentialDetail": "Trapping everything all at once",
+                        "mostCommonMistake": "Rolling sideways instead of bridging upwards",
+                        "badGuyReminder": "Keep hands on chest for this variation",
+                        "safetyTip": "Top person tuck shoulder",
+                        "corePrinciples": [
+                              "Isolation (19)",
+                              "Kuzushi (11)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l1-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent grabs your chest or throat with one or both hands"
+                              },
+                              {
+                                    "id": "gc2-l1-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Trapping everything all at once"
+                              },
+                              {
+                                    "id": "gc2-l1-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Rolling sideways instead of bridging upwards"
+                              },
+                              {
+                                    "id": "gc2-l1-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Top person tuck shoulder"
+                              },
+                              {
+                                    "id": "gc2-l1-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l1-s2",
+                        "sliceNumber": 2,
+                        "title": "Punch Block Variation",
+                        "indicator": "Opponent sits up to throw punches",
+                        "essentialDetail": "Constant closeness",
+                        "mostCommonMistake": "Failure to keep weight on the opponent's hands",
+                        "badGuyReminder": "Post hands on ground for base when pulled forward",
+                        "safetyTip": "Bad guy must tuck fingers prior to roll",
+                        "corePrinciples": [
+                              "Distance (3)",
+                              "Ratchet (26)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l1-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "As the opponent sits up to punch, control their arms by wrapping them up."
+                              },
+                              {
+                                    "id": "gc2-l1-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Pull the opponent forward to disrupt their base, making their punches ineffective."
+                              },
+                              {
+                                    "id": "gc2-l1-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Proceed with the standard Trap & Roll mechanics."
+                              },
+                              {
+                                    "id": "gc2-l1-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Recognize: Opponent sits up to throw punches"
+                              },
+                              {
+                                    "id": "gc2-l1-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Position: Constant closeness"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l1-s3",
+                        "sliceNumber": 3,
+                        "title": "Headlock Variation",
+                        "indicator": "Opponent establishes a headlock and inserts the grapevines/hooks",
+                        "essentialDetail": "Remove the hooks prior to bridge",
+                        "mostCommonMistake": "No reach with hugging arm",
+                        "badGuyReminder": null,
+                        "safetyTip": "Do not insert the grapevines too aggressively",
+                        "corePrinciples": [
+                              "Anchor (25)",
+                              "Velocity (7)",
+                              "Creation (5)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l1-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent establishes a headlock and inserts the grapevines/hooks"
+                              },
+                              {
+                                    "id": "gc2-l1-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Remove the hooks prior to bridge"
+                              },
+                              {
+                                    "id": "gc2-l1-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: No reach with hugging arm"
+                              },
+                              {
+                                    "id": "gc2-l1-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Do not insert the grapevines too aggressively"
+                              },
+                              {
+                                    "id": "gc2-l1-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l1-s4",
+                        "sliceNumber": 4,
+                        "title": "Open Guard Pass",
+                        "indicator": "Opponent's legs remain uncrossed after the Trap & Roll Escape is executed",
+                        "essentialDetail": "Effective hip control",
+                        "mostCommonMistake": "Weak base points",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Prevention (13)",
+                              "Pyramid (4)"
+                        ],
+                        "drillOrders": "Trap & Roll (any variation), Open Guard Pass, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l1-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent's legs remain uncrossed after the Trap & Roll Escape is executed"
+                              },
+                              {
+                                    "id": "gc2-l1-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective hip control"
+                              },
+                              {
+                                    "id": "gc2-l1-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak base points"
+                              },
+                              {
+                                    "id": "gc2-l1-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l1-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Trap & Roll (any variation), Open Guard Pass, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l1-s5",
+                        "sliceNumber": 5,
+                        "title": "Spread Hand Variation",
+                        "indicator": "Opponent's hands are spread wide for base",
+                        "essentialDetail": "Use your legs to pivot effectively",
+                        "mostCommonMistake": "Incorrect grip on arm after the pivot",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Pivot (22)",
+                              "Buoyancy (27)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l1-s5-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent's hands are spread wide for base"
+                              },
+                              {
+                                    "id": "gc2-l1-s5-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Use your legs to pivot effectively"
+                              },
+                              {
+                                    "id": "gc2-l1-s5-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Incorrect grip on arm after the pivot"
+                              },
+                              {
+                                    "id": "gc2-l1-s5-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l1-s5-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l2",
+            "lessonNumber": 2,
+            "technique": "Americana Armlock",
+            "position": "Mount",
+            "overview": "The Americana Armlock is a highly effective submission that can be used with minimal effort to defeat a larger opponent.",
+            "mindsetMinute": "The beauty of submissions is that they give you the ability to control the amount of damage that you inflict. When using the Americana Armlock, be sure to focus on using your legs for stability otherwise the move is worthless.",
+            "streetTip": "In a rapidly evolving situation, you'll want overhooks for punch protection and underhooks for groin protection.",
+            "slices": [
+                  {
+                        "id": "gc2-l2-s1",
+                        "sliceNumber": 1,
+                        "title": "Basic Application (Preparation Drill)",
+                        "indicator": null,
+                        "essentialDetail": "Effective hand positioning and solid wrist curvature",
+                        "mostCommonMistake": "All lift without any slide",
+                        "badGuyReminder": null,
+                        "safetyTip": "Squeeze very slowly and remember to tap out when slight discomfort is felt",
+                        "corePrinciples": [
+                              "Isolation (19)",
+                              "Overload (24)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep on each arm, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l2-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Recognize the scenario / trigger."
+                              },
+                              {
+                                    "id": "gc2-l2-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective hand positioning and solid wrist curvature"
+                              },
+                              {
+                                    "id": "gc2-l2-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: All lift without any slide"
+                              },
+                              {
+                                    "id": "gc2-l2-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Squeeze very slowly and remember to tap out when slight discomfort is felt"
+                              },
+                              {
+                                    "id": "gc2-l2-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep on each arm, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l2-s2",
+                        "sliceNumber": 2,
+                        "title": "Standard Variation",
+                        "indicator": "Opponent fears punches and protects their face with both hands",
+                        "essentialDetail": "Back hook in, front knee open",
+                        "mostCommonMistake": "No hip pressure",
+                        "badGuyReminder": "Test partners hooks by trying to push with free arm",
+                        "safetyTip": "Do not squeeze the lock while opponent is checking your base",
+                        "corePrinciples": [
+                              "Anchor (25)",
+                              "Pyramid (4)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep on each arm, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l2-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent fears punches and protects their face with both hands"
+                              },
+                              {
+                                    "id": "gc2-l2-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Back hook in, front knee open"
+                              },
+                              {
+                                    "id": "gc2-l2-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: No hip pressure"
+                              },
+                              {
+                                    "id": "gc2-l2-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Do not squeeze the lock while opponent is checking your base"
+                              },
+                              {
+                                    "id": "gc2-l2-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep on each arm, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l2-s3",
+                        "sliceNumber": 3,
+                        "title": "Neck-Hug Variation",
+                        "indicator": "Opponent exposes their arm while you maintain control of their neck",
+                        "essentialDetail": "Grip with thumb at first then switch to thumbless grip",
+                        "mostCommonMistake": "Forgetting to loop the arm around the head",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Detachment (2)",
+                              "Overload (24)",
+                              "Creation (5)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep on each arm, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l2-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent exposes their arm while you maintain control of their neck"
+                              },
+                              {
+                                    "id": "gc2-l2-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Grip with thumb at first then switch to thumbless grip"
+                              },
+                              {
+                                    "id": "gc2-l2-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Forgetting to loop the arm around the head"
+                              },
+                              {
+                                    "id": "gc2-l2-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l2-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep on each arm, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l2-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Side Entry",
+                        "indicator": "Opponent keeps their elbow heavy on the ground",
+                        "essentialDetail": "Inserting the wrist/fulcrum as close to the elbow as possible",
+                        "mostCommonMistake": "Failing to use body weight to pry the elbow off the ground",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Pivot (22)",
+                              "Grandmaster (32)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep on each arm, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l2-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent keeps their elbow heavy on the ground"
+                              },
+                              {
+                                    "id": "gc2-l2-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Inserting the wrist/fulcrum as close to the elbow as possible"
+                              },
+                              {
+                                    "id": "gc2-l2-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failing to use body weight to pry the elbow off the ground"
+                              },
+                              {
+                                    "id": "gc2-l2-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l2-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep on each arm, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l3",
+            "lessonNumber": 3,
+            "technique": "Positional Control",
+            "position": "Mount",
+            "overview": "In this lesson you will learn how to control and exhaust a larger stronger opponent from the mount. First, you will learn how to apply effective hip pressure, and then you will see how to neutralize the most common escape attempts you can expect from an untrained opponent in a real fight.",
+            "mindsetMinute": "Every time you achieve the mount, expect your opponent to use every ounce of energy to throw you off. Once you neutralize their explosive escape attempts, they will be very discouraged and in most cases, this will be enough to make them surrender.",
+            "streetTip": "Street fights are always unpredictable and dangerous no matter how trained you are. Always aim to avoid the avoidable fights.",
+            "slices": [
+                  {
+                        "id": "gc2-l3-s1",
+                        "sliceNumber": 1,
+                        "title": "Hips & Hands (Preparation Drill)",
+                        "indicator": null,
+                        "essentialDetail": "Constant hip pressure and effective head-handoffs",
+                        "mostCommonMistake": "Weak torso alignment",
+                        "badGuyReminder": "Hug your partner's body to make it easier to check their base",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Connection (1)",
+                              "Head Control (28)"
+                        ],
+                        "drillOrders": "Mount start, establish hip pressure, side-to-side 5 times, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l3-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Recognize the scenario / trigger."
+                              },
+                              {
+                                    "id": "gc2-l3-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Constant hip pressure and effective head-handoffs"
+                              },
+                              {
+                                    "id": "gc2-l3-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak torso alignment"
+                              },
+                              {
+                                    "id": "gc2-l3-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l3-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, establish hip pressure, side-to-side 5 times, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l3-s2",
+                        "sliceNumber": 2,
+                        "title": "Anchor & Base",
+                        "indicator": "Opponent attempts to escape by pushing you side-to-side",
+                        "essentialDetail": "Effective hook transfers with constant hip pressure",
+                        "mostCommonMistake": "Handing off the head control when it's not necessary",
+                        "badGuyReminder": "Switch directions slowly at first to build your partner's confidence",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Depletion (18)",
+                              "Pyramid (4)",
+                              "Connection (1)"
+                        ],
+                        "drillOrders": "Mount start, establish hip pressure, side-to-side 5 times with fixed neck hug (if possible), reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l3-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to escape by pushing you side-to-side"
+                              },
+                              {
+                                    "id": "gc2-l3-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective hook transfers with constant hip pressure"
+                              },
+                              {
+                                    "id": "gc2-l3-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Handing off the head control when it's not necessary"
+                              },
+                              {
+                                    "id": "gc2-l3-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l3-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, establish hip pressure, side-to-side 5 times with fixed neck hug (if possible), reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l3-s3",
+                        "sliceNumber": 3,
+                        "title": "Low Swim",
+                        "indicator": "Opponent attempts to wrap your posted arm to roll you off",
+                        "essentialDetail": "Solid 45-degree posted hand angle",
+                        "mostCommonMistake": "Weak elbow positioning and predictable response time",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Reconnaissance (12)",
+                              "Clock (8)"
+                        ],
+                        "drillOrders": "Mount start, 2 low swims on each arm, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l3-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to wrap your posted arm to roll you off"
+                              },
+                              {
+                                    "id": "gc2-l3-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Solid 45-degree posted hand angle"
+                              },
+                              {
+                                    "id": "gc2-l3-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak elbow positioning and predictable response time"
+                              },
+                              {
+                                    "id": "gc2-l3-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l3-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 2 low swims on each arm, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l3-s4",
+                        "sliceNumber": 4,
+                        "title": "High Swim",
+                        "indicator": "Opponent pushes straight up on your chest or throat with one or both hands",
+                        "essentialDetail": "Get low and heavy after each swim to prevent Follow-Up push attempts",
+                        "mostCommonMistake": "Swimming both hands at once",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Redirection (29)",
+                              "River (9)"
+                        ],
+                        "drillOrders": "Mount start, 3 high swims, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l3-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent pushes straight up on your chest or throat with one or both hands"
+                              },
+                              {
+                                    "id": "gc2-l3-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Get low and heavy after each swim to prevent Follow-Up push attempts"
+                              },
+                              {
+                                    "id": "gc2-l3-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Swimming both hands at once"
+                              },
+                              {
+                                    "id": "gc2-l3-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l3-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 3 high swims, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l3-s5",
+                        "sliceNumber": 5,
+                        "title": "Bonus: Half Nelson",
+                        "indicator": "Opponent tries to roll to their knees underneath you",
+                        "essentialDetail": "Immediate underhook and anchor behind the head",
+                        "mostCommonMistake": "Failure to apply hip pressure",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Anchor (25)",
+                              "Depletion (18)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep on each side, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l3-s5-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent tries to roll to their knees underneath you"
+                              },
+                              {
+                                    "id": "gc2-l3-s5-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Immediate underhook and anchor behind the head"
+                              },
+                              {
+                                    "id": "gc2-l3-s5-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to apply hip pressure"
+                              },
+                              {
+                                    "id": "gc2-l3-s5-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l3-s5-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep on each side, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l4",
+            "lessonNumber": 4,
+            "technique": "Take the Back",
+            "position": "Mount",
+            "overview": "Nine times out of ten, your opponent will fear getting punched in the face and will instantly roll to their knees. Knowing how to achieve the back mount will ensure that you do not lose control and that you take advantage of the opportunity they are creating.",
+            "mindsetMinute": "If your opponent decides to roll to their knees explosively, you must immediately remove your hooks and prepare to take the back. Failure to remove your hooks at the right time will cause you to lose the dominant position.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l4-s1",
+                        "sliceNumber": 1,
+                        "title": "Take the Back",
+                        "indicator": "Opponent rolls to their knees to escape the mount",
+                        "essentialDetail": "Effective back hook entry",
+                        "mostCommonMistake": "Ineffective torso alignment while on back",
+                        "badGuyReminder": "Get up on your shoulder, not your elbow",
+                        "safetyTip": "Remain weightless until partner is on all fours",
+                        "corePrinciples": [
+                              "Acceptance (6)",
+                              "Buoyancy (27)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l4-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent rolls to their knees to escape the mount"
+                              },
+                              {
+                                    "id": "gc2-l4-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective back hook entry"
+                              },
+                              {
+                                    "id": "gc2-l4-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Ineffective torso alignment while on back"
+                              },
+                              {
+                                    "id": "gc2-l4-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Remain weightless until partner is on all fours"
+                              },
+                              {
+                                    "id": "gc2-l4-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l4-s2",
+                        "sliceNumber": 2,
+                        "title": "Remount Technique",
+                        "indicator": "Opponent compromises your hooks to escape your back mount",
+                        "essentialDetail": "Effective hook transfer to full mount and constant closeness",
+                        "mostCommonMistake": "Too much movement in too little time",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Clock (8)",
+                              "Ratchet (26)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep with Remount, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l4-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent compromises your hooks to escape your back mount"
+                              },
+                              {
+                                    "id": "gc2-l4-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective hook transfer to full mount and constant closeness"
+                              },
+                              {
+                                    "id": "gc2-l4-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Too much movement in too little time"
+                              },
+                              {
+                                    "id": "gc2-l4-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l4-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep with Remount, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l4-s3",
+                        "sliceNumber": 3,
+                        "title": "Bonus: Rider Transition",
+                        "indicator": "Opponent rolls aggressively to their knees",
+                        "essentialDetail": "Heavy and low modified mount position",
+                        "mostCommonMistake": "Failure to use bodyweight to delay the roll",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Tagalong (23)",
+                              "Depletion (18)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l4-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent rolls aggressively to their knees"
+                              },
+                              {
+                                    "id": "gc2-l4-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Heavy and low modified mount position"
+                              },
+                              {
+                                    "id": "gc2-l4-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to use bodyweight to delay the roll"
+                              },
+                              {
+                                    "id": "gc2-l4-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l4-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l5",
+            "lessonNumber": 5,
+            "technique": "Rear Naked Choke",
+            "position": "Back",
+            "overview": "Of all the techniques in Gracie Jiu-Jitsu, the Rear Naked Choke has been responsible for more fight victories than all the rest combined. Based entirely on effective use of leverage, you can use this submission to defeat an opponent of any size.",
+            "mindsetMinute": "When you apply the Rear Naked Choke remember to breathe and make sure you hold the pressure long enough to allow the move to work. It will take anywhere from 6-15 seconds to render your opponent unconscious.",
+            "streetTip": "When fighting in confined spaces, your opponent can push off the walls to create a powerful bridging opportunity. To avoid this, you'll need to use your body to pivot your opponent's feet away from the wall so they can't push off.",
+            "slices": [
+                  {
+                        "id": "gc2-l5-s1",
+                        "sliceNumber": 1,
+                        "title": "Basic Application",
+                        "indicator": null,
+                        "essentialDetail": "Hug the 'V' using back strength instead of arm strength",
+                        "mostCommonMistake": "Pushing the head instead of expanding the chest",
+                        "badGuyReminder": "Tighten your neck muscles to resist more effectively",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Connection (1)",
+                              "Overload (24)"
+                        ],
+                        "drillOrders": "Sitting start, 1 rep with each arm, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l5-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Recognize the scenario / trigger."
+                              },
+                              {
+                                    "id": "gc2-l5-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Hug the 'V' using back strength instead of arm strength"
+                              },
+                              {
+                                    "id": "gc2-l5-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Pushing the head instead of expanding the chest"
+                              },
+                              {
+                                    "id": "gc2-l5-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l5-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Sitting start, 1 rep with each arm, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l5-s2",
+                        "sliceNumber": 2,
+                        "title": "Strong Side Variation",
+                        "indicator": "Opponent falls towards your top arm",
+                        "essentialDetail": "Deep shoulder shot for optimal elbow-chin alignment",
+                        "mostCommonMistake": null,
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Isolation (19)",
+                              "Anchor (25)"
+                        ],
+                        "drillOrders": "Sitting start, 1 rep with each side, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l5-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent falls towards your top arm"
+                              },
+                              {
+                                    "id": "gc2-l5-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Deep shoulder shot for optimal elbow-chin alignment"
+                              },
+                              {
+                                    "id": "gc2-l5-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Avoid the common failure pattern."
+                              },
+                              {
+                                    "id": "gc2-l5-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l5-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Sitting start, 1 rep with each side, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l5-s3",
+                        "sliceNumber": 3,
+                        "title": "Weak Side Variation",
+                        "indicator": "Opponent falls towards the under-hooked arm",
+                        "essentialDetail": "Controlled handoff to choke with the bottom arm",
+                        "mostCommonMistake": "Failure to insert the second arm under the first arm",
+                        "badGuyReminder": "Keep your core tight to facilitate the technique",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Tension (14)",
+                              "Ratchet (26)"
+                        ],
+                        "drillOrders": "Sitting start, 1 rep on each side, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l5-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent falls towards the under-hooked arm"
+                              },
+                              {
+                                    "id": "gc2-l5-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Controlled handoff to choke with the bottom arm"
+                              },
+                              {
+                                    "id": "gc2-l5-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to insert the second arm under the first arm"
+                              },
+                              {
+                                    "id": "gc2-l5-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l5-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Sitting start, 1 rep on each side, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l5-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Frame Escape",
+                        "indicator": "Opponent tries to choke you during the fight",
+                        "essentialDetail": "Two-on-one control of the top arm",
+                        "mostCommonMistake": "Failure to fall towards the top arm prior to frame activation",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Prevention (13)",
+                              "Frame (10)"
+                        ],
+                        "drillOrders": "Turtle start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l5-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent tries to choke you during the fight"
+                              },
+                              {
+                                    "id": "gc2-l5-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Two-on-one control of the top arm"
+                              },
+                              {
+                                    "id": "gc2-l5-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to fall towards the top arm prior to frame activation"
+                              },
+                              {
+                                    "id": "gc2-l5-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l5-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Turtle start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l6",
+            "lessonNumber": 6,
+            "technique": "Leg Hook Takedown",
+            "position": "Standing",
+            "overview": "Your goal in any one-on-one physical altercation should be to avoid dangerous punches while standing, and then to get the fight to the ground. In this lesson, we will teach you how to take the opponent down once you get to the clinch.",
+            "mindsetMinute": "Focus on establishing an effective clinch with solid base, and only step in for the takedown when you feel comfortable. The more control you have during the takedown, the more likely you are to remain in control once you get to the ground.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l6-s1",
+                        "sliceNumber": 1,
+                        "title": "Clinch Control (Preparation Drill)",
+                        "indicator": null,
+                        "essentialDetail": "Keep your hips close to your opponent's",
+                        "mostCommonMistake": "Incorrect head positioning",
+                        "badGuyReminder": "Move in various ways to test control and balance",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Distance (3)",
+                              "Posture (16)"
+                        ],
+                        "drillOrders": "Clinch start, control for 5-10 seconds, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l6-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Recognize the scenario / trigger."
+                              },
+                              {
+                                    "id": "gc2-l6-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Keep your hips close to your opponent's"
+                              },
+                              {
+                                    "id": "gc2-l6-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Incorrect head positioning"
+                              },
+                              {
+                                    "id": "gc2-l6-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l6-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Clinch start, control for 5-10 seconds, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l6-s2",
+                        "sliceNumber": 2,
+                        "title": "Leg Hook Takedown",
+                        "indicator": "Opponent maintains a wide base when you establish the clinch",
+                        "essentialDetail": "Effective clinch control and setup step",
+                        "mostCommonMistake": "Failure to control the descent by releasing the opponent",
+                        "badGuyReminder": "Keep your base wide and low to facilitate your partner",
+                        "safetyTip": "Bad guy should hold on to their partner's back during the takedown to cushion the fall",
+                        "corePrinciples": [
+                              "Kuzushi (11)",
+                              "Detachment (2)"
+                        ],
+                        "drillOrders": "Clinch start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l6-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent maintains a wide base when you establish the clinch"
+                              },
+                              {
+                                    "id": "gc2-l6-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective clinch control and setup step"
+                              },
+                              {
+                                    "id": "gc2-l6-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to control the descent by releasing the opponent"
+                              },
+                              {
+                                    "id": "gc2-l6-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Bad guy should hold on to their partner's back during the takedown to cushion the fall"
+                              },
+                              {
+                                    "id": "gc2-l6-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Clinch start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l6-s3",
+                        "sliceNumber": 3,
+                        "title": "Bonus: Outside Trip",
+                        "indicator": "Opponent is moving aggressively and unpredictably in the clinch",
+                        "essentialDetail": "Effective load step to generate maximum propulsion",
+                        "mostCommonMistake": "Failure to hook the leg deeply enough",
+                        "badGuyReminder": "Break your fall",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Anchor (25)",
+                              "Kuzushi (11)"
+                        ],
+                        "drillOrders": "Clinch start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l6-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is moving aggressively and unpredictably in the clinch"
+                              },
+                              {
+                                    "id": "gc2-l6-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective load step to generate maximum propulsion"
+                              },
+                              {
+                                    "id": "gc2-l6-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to hook the leg deeply enough"
+                              },
+                              {
+                                    "id": "gc2-l6-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l6-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Clinch start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l7",
+            "lessonNumber": 7,
+            "technique": "Clinch (Aggressive Opponent)",
+            "position": "Standing",
+            "overview": "The best strategy is to establish a clinch and take the fight to the ground where you can conserve energy, neutralize strikes, and win the fight with ease. The key to establishing a clinch on an aggressive opponent is to understand that there are two safe distances in a fight: all the way out, or all the way in.",
+            "mindsetMinute": "Once the fight begins, remain calm and avoid the temptation to trade punches with your opponent. Focus on keeping a safe distance and then shoot in when they become aggressive. No matter what, once you commit to the clinch do not retreat.",
+            "streetTip": "Every strike exists on a Power Scale from 1-10. Jiu-jitsu wins because we violate the traditional distance from which fights are fought, existing in 'green zones' where strikes have the least power but we are positioned for level 10 submissions.",
+            "slices": [
+                  {
+                        "id": "gc2-l7-s1",
+                        "sliceNumber": 1,
+                        "title": "Close the Distance",
+                        "indicator": "Opponent becomes aggressive and commits to attacking you with strikes",
+                        "essentialDetail": "Maintain at least a two-arm distance from the attacker",
+                        "mostCommonMistake": "Failure to protect your face during the entry",
+                        "badGuyReminder": "Your intensity (or lack thereof) should match your partner's confidence level",
+                        "safetyTip": "If your partner forgets to block, don't knock them out",
+                        "corePrinciples": [
+                              "Distance (3)",
+                              "Reconnaissance (12)"
+                        ],
+                        "drillOrders": "Keep the distance, close during aggression, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l7-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent becomes aggressive and commits to attacking you with strikes"
+                              },
+                              {
+                                    "id": "gc2-l7-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Maintain at least a two-arm distance from the attacker"
+                              },
+                              {
+                                    "id": "gc2-l7-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to protect your face during the entry"
+                              },
+                              {
+                                    "id": "gc2-l7-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: If your partner forgets to block, don't knock them out"
+                              },
+                              {
+                                    "id": "gc2-l7-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Keep the distance, close during aggression, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l7-s2",
+                        "sliceNumber": 2,
+                        "title": "Bonus: Over-Under Clinch",
+                        "indicator": "Opponent prevents you from getting double underhooks in the clinch",
+                        "essentialDetail": "Strong balance and footwork while pummeling for double underhooks",
+                        "mostCommonMistake": "Failing to keep the opponent from pummeling in on the back side",
+                        "badGuyReminder": "Solid body contact and constantly moving footwork/base.",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Centerline (31)",
+                              "Mobility (30)"
+                        ],
+                        "drillOrders": "Over-Under Clinch start, 10-12 reps, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l7-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent prevents you from getting double underhooks in the clinch"
+                              },
+                              {
+                                    "id": "gc2-l7-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Strong balance and footwork while pummeling for double underhooks"
+                              },
+                              {
+                                    "id": "gc2-l7-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failing to keep the opponent from pummeling in on the back side"
+                              },
+                              {
+                                    "id": "gc2-l7-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l7-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Over-Under Clinch start, 10-12 reps, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l8",
+            "lessonNumber": 8,
+            "technique": "Punch Block Series (Stages 1-4)",
+            "position": "Guard",
+            "overview": "With an outraged opponent in your guard, it is almost certain that punches will be thrown at your face from every possible angle. The Punch Block Series will enable you to neutralize all punches and exhaust your opponent until the opportunity arises to execute a sweep or submission.",
+            "mindsetMinute": "Blocking all the punches and exhausting all of your energy in the process is just as bad as not blocking any punches. Focus as much on relaxing and breathing as you do on neutralizing the strikes. Always remember that the final goal is to establish Stage 1 control.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l8-s1",
+                        "sliceNumber": 1,
+                        "title": "Stage 1",
+                        "indicator": "Opponent attempts to punch your face from within your guard",
+                        "essentialDetail": "Effective head control and inside arm positioning",
+                        "mostCommonMistake": "Expending too much energy",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Posture (16)",
+                              "Head Control (28)"
+                        ],
+                        "drillOrders": "Mount start with roll to guard, 15-20 seconds of protection and control, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l8-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to punch your face from within your guard"
+                              },
+                              {
+                                    "id": "gc2-l8-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective head control and inside arm positioning"
+                              },
+                              {
+                                    "id": "gc2-l8-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Expending too much energy"
+                              },
+                              {
+                                    "id": "gc2-l8-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l8-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start with roll to guard, 15-20 seconds of protection and control, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l8-s2",
+                        "sliceNumber": 2,
+                        "title": "Stage 2",
+                        "indicator": "Opponent pulls their arm back to punch your body or head",
+                        "essentialDetail": "Fill the space with shins and forearms",
+                        "mostCommonMistake": "Too much time spent in Stage 2",
+                        "badGuyReminder": "Sit back on your heels when pulling the punches",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Frame (10)",
+                              "Tension (14)"
+                        ],
+                        "drillOrders": "Guard start, 1-2-1-2-1, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l8-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent pulls their arm back to punch your body or head"
+                              },
+                              {
+                                    "id": "gc2-l8-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Fill the space with shins and forearms"
+                              },
+                              {
+                                    "id": "gc2-l8-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Too much time spent in Stage 2"
+                              },
+                              {
+                                    "id": "gc2-l8-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l8-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1-2-1-2-1, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l8-s3",
+                        "sliceNumber": 3,
+                        "title": "Stage 3",
+                        "indicator": "Opponent sits up to generate more powerful punches",
+                        "essentialDetail": "Quick insertion of the knees with extended hips",
+                        "mostCommonMistake": "No face protection in drop to Stage 1",
+                        "badGuyReminder": "Lean forward in Stage 3",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Depletion (18)",
+                              "Acceptance (6)"
+                        ],
+                        "drillOrders": "Guard start, 1-3-1-2-3-1, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l8-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent sits up to generate more powerful punches"
+                              },
+                              {
+                                    "id": "gc2-l8-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Quick insertion of the knees with extended hips"
+                              },
+                              {
+                                    "id": "gc2-l8-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: No face protection in drop to Stage 1"
+                              },
+                              {
+                                    "id": "gc2-l8-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l8-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1-3-1-2-3-1, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l8-s4",
+                        "sliceNumber": 4,
+                        "title": "Stage 4",
+                        "indicator": "Opponent stands up to throw punches",
+                        "essentialDetail": "Slight bend in the knees and toes facing out",
+                        "mostCommonMistake": "Uncontrolled drop of your opponent",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Clock (8)",
+                              "Connection (1)"
+                        ],
+                        "drillOrders": "Guard start, 1-4-1-2-3-4-1, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l8-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent stands up to throw punches"
+                              },
+                              {
+                                    "id": "gc2-l8-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Slight bend in the knees and toes facing out"
+                              },
+                              {
+                                    "id": "gc2-l8-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Uncontrolled drop of your opponent"
+                              },
+                              {
+                                    "id": "gc2-l8-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l8-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1-4-1-2-3-4-1, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l8-s5",
+                        "sliceNumber": 5,
+                        "title": "Bonus: Guard Get-Up",
+                        "indicator": "Opponent is in your guard and you must get back to your feet rapidly",
+                        "essentialDetail": "Effective knee shield and 45-degree body angle",
+                        "mostCommonMistake": "Failure to redirect the arm across your body",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Buoyancy (27)",
+                              "Redirection (29)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l8-s5-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is in your guard and you must get back to your feet rapidly"
+                              },
+                              {
+                                    "id": "gc2-l8-s5-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective knee shield and 45-degree body angle"
+                              },
+                              {
+                                    "id": "gc2-l8-s5-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to redirect the arm across your body"
+                              },
+                              {
+                                    "id": "gc2-l8-s5-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l8-s5-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l9",
+            "lessonNumber": 9,
+            "technique": "Armbar",
+            "position": "Mount",
+            "overview": "When you mount an opponent, it is very common for them to reach for your chest or throat in their escape attempt, and this creates the perfect opportunity for the Armbar. The Armbar is one of the most dynamic submissions in jiu-jitsu since it can be applied from virtually any position.",
+            "mindsetMinute": "The sooner you go for the Armbar, the more likely your opponent is to escape. Allow your partner to exhaust before spinning for the arm so that they won't have the energy to escape. When you catch it, focus entirely on the leg control, since breaking the arm is the easy part.",
+            "streetTip": "There is no technique or martial art that is 100% reliable against multiple attackers. The ground is the last place you want to be against multiple attackers, which is why jiu-jitsu is so important. Only once you truly understand the intricacies of a ground fight will you be able to escape one on a moment's notice if your life depends on it.",
+            "slices": [
+                  {
+                        "id": "gc2-l9-s1",
+                        "sliceNumber": 1,
+                        "title": "Final Control (Preparation Drill)",
+                        "indicator": null,
+                        "essentialDetail": "Use legs to neutralize the head slip, elbow pullout, and sit-up attempts",
+                        "mostCommonMistake": "Fixating on the arm control, instead of focusing on the leg control",
+                        "badGuyReminder": null,
+                        "safetyTip": "Do not apply pressure until bad guy has tested all 3 control elements, squeeze slowly",
+                        "corePrinciples": [
+                              "Anchor (25)",
+                              "Overload (24)"
+                        ],
+                        "drillOrders": "Armbar start, 10-15 seconds of control, slow pressure, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l9-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Recognize the scenario / trigger."
+                              },
+                              {
+                                    "id": "gc2-l9-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Use legs to neutralize the head slip, elbow pullout, and sit-up attempts"
+                              },
+                              {
+                                    "id": "gc2-l9-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Fixating on the arm control, instead of focusing on the leg control"
+                              },
+                              {
+                                    "id": "gc2-l9-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Do not apply pressure until bad guy has tested all 3 control elements, squeeze slowly"
+                              },
+                              {
+                                    "id": "gc2-l9-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Armbar start, 10-15 seconds of control, slow pressure, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l9-s2",
+                        "sliceNumber": 2,
+                        "title": "Standard Variation",
+                        "indicator": "Opponent reaches up for your chest or throat with one or both hands",
+                        "essentialDetail": "Effective set-up step to open the hips and facilitate the spin",
+                        "mostCommonMistake": "Landing with hips too far from opponent's shoulder",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Pivot (22)",
+                              "Isolation (19)"
+                        ],
+                        "drillOrders": "Start from mount, 1 repetition, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l9-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent reaches up for your chest or throat with one or both hands"
+                              },
+                              {
+                                    "id": "gc2-l9-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective set-up step to open the hips and facilitate the spin"
+                              },
+                              {
+                                    "id": "gc2-l9-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Landing with hips too far from opponent's shoulder"
+                              },
+                              {
+                                    "id": "gc2-l9-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l9-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Start from mount, 1 repetition, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l9-s3",
+                        "sliceNumber": 3,
+                        "title": "Side Variation",
+                        "indicator": "Opponent turns sideways underneath you but does not roll to their knees",
+                        "essentialDetail": "Effective weight distribution on the opponent's ribs during the southward lean",
+                        "mostCommonMistake": "Committing to Armbar too soon (you must first verify that opponent is not rolling to their knees)",
+                        "badGuyReminder": null,
+                        "safetyTip": "Avoid kicking your partner in the face with your heel during the spin",
+                        "corePrinciples": [
+                              "Head Control (28)",
+                              "Fork (15)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l9-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent turns sideways underneath you but does not roll to their knees"
+                              },
+                              {
+                                    "id": "gc2-l9-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective weight distribution on the opponent's ribs during the southward lean"
+                              },
+                              {
+                                    "id": "gc2-l9-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Committing to Armbar too soon (you must first verify that opponent is not rolling to their knees)"
+                              },
+                              {
+                                    "id": "gc2-l9-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Avoid kicking your partner in the face with your heel during the spin"
+                              },
+                              {
+                                    "id": "gc2-l9-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l9-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: S-Mount Variation",
+                        "indicator": "Opponent's elbows are exposed but their arms aren't fully extended",
+                        "essentialDetail": "Effective slide into s-mount position",
+                        "mostCommonMistake": "Ineffective balance in the s-mount",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Pyramid (4)",
+                              "Creation (5)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l9-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent's elbows are exposed but their arms aren't fully extended"
+                              },
+                              {
+                                    "id": "gc2-l9-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective slide into s-mount position"
+                              },
+                              {
+                                    "id": "gc2-l9-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Ineffective balance in the s-mount"
+                              },
+                              {
+                                    "id": "gc2-l9-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l9-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l10",
+            "lessonNumber": 10,
+            "technique": "Triangle Choke",
+            "position": "Guard",
+            "overview": "The Triangle Choke is one of the most amazing techniques of Gracie Jiu-Jitsu, since it gives any individual the ability to render their opponent unconscious from the bottom of the fight.",
+            "mindsetMinute": "Perfect the Triangle because it may save your life. Don't forget to respect the punches. Know your leg limitations and learn to trust the power of a partial Triangle lockup since that may be your only option against a much larger opponent.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l10-s1",
+                        "sliceNumber": 1,
+                        "title": "Triangle Finish (Preparation Drill)",
+                        "indicator": null,
+                        "essentialDetail": "Walk shoulders back to facilitate the neck bite and full lockup",
+                        "mostCommonMistake": "No thigh squeeze and no patience during final squeeze",
+                        "badGuyReminder": "Don't forget to tap out",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Centerline (31)",
+                              "Mobility (30)"
+                        ],
+                        "drillOrders": "Triangle Setup start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l10-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Recognize the scenario / trigger."
+                              },
+                              {
+                                    "id": "gc2-l10-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Walk shoulders back to facilitate the neck bite and full lockup"
+                              },
+                              {
+                                    "id": "gc2-l10-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: No thigh squeeze and no patience during final squeeze"
+                              },
+                              {
+                                    "id": "gc2-l10-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l10-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Triangle Setup start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l10-s2",
+                        "sliceNumber": 2,
+                        "title": "Stage 1.5 Variation",
+                        "indicator": "Opponent is in your guard and you are able to establish Stage 1.5",
+                        "essentialDetail": "Full extension of the hips prior to slipping the leg over the shoulder",
+                        "mostCommonMistake": "Failure to maintain head control any time the legs are uncrossed",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Tension (14)",
+                              "Centerline (31)"
+                        ],
+                        "drillOrders": "Stage 1 start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l10-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is in your guard and you are able to establish Stage 1.5"
+                              },
+                              {
+                                    "id": "gc2-l10-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Full extension of the hips prior to slipping the leg over the shoulder"
+                              },
+                              {
+                                    "id": "gc2-l10-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to maintain head control any time the legs are uncrossed"
+                              },
+                              {
+                                    "id": "gc2-l10-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l10-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Stage 1 start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l10-s3",
+                        "sliceNumber": 3,
+                        "title": "Giant Killer Variation",
+                        "indicator": "Opponent is too large for the Stage 1.5 Variation",
+                        "essentialDetail": "Effective creation of distance with head control and shrimp movement",
+                        "mostCommonMistake": "Foot on hip instead of ground during the shrimp-out",
+                        "badGuyReminder": "Keep driving forward during the technique",
+                        "safetyTip": "Don't knee your partner in the chin during leg removal",
+                        "corePrinciples": [
+                              "Redirection (29)",
+                              "Reconnaissance (12)"
+                        ],
+                        "drillOrders": "Stage 1 start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l10-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is too large for the Stage 1.5 Variation"
+                              },
+                              {
+                                    "id": "gc2-l10-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective creation of distance with head control and shrimp movement"
+                              },
+                              {
+                                    "id": "gc2-l10-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Foot on hip instead of ground during the shrimp-out"
+                              },
+                              {
+                                    "id": "gc2-l10-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Don't knee your partner in the chin during leg removal"
+                              },
+                              {
+                                    "id": "gc2-l10-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Stage 1 start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l10-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Slam Prevention",
+                        "indicator": "Opponent attempts to pick you up and slam you from within the Triangle Choke",
+                        "essentialDetail": "Immediate underhook on the opponent's leg",
+                        "mostCommonMistake": "Failure to hold your own shin with the other arm",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Anchor (25)",
+                              "Pivot (22)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l10-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to pick you up and slam you from within the Triangle Choke"
+                              },
+                              {
+                                    "id": "gc2-l10-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Immediate underhook on the opponent's leg"
+                              },
+                              {
+                                    "id": "gc2-l10-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to hold your own shin with the other arm"
+                              },
+                              {
+                                    "id": "gc2-l10-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l10-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l11",
+            "lessonNumber": 11,
+            "technique": "Elevator Sweep",
+            "position": "Guard",
+            "overview": "Any time a larger opponent is driving all their weight forward from within your guard, there is a good chance that they are actually creating an opportunity for the Elevator Sweep.",
+            "mindsetMinute": "When your opponent attempts to use their body weight to crush you, don't panic. Swivel your hips out and insert your leg hook and go for it. If it doesn't work, go back to Stage 1, block punches, and remain calm until another sweep or submission opportunity presents itself.",
+            "streetTip": "The choice to intervene during an altercation is one that shouldn't be taken lightly. Besides tactical empathy, the rear takedown and the arm drag removal are two of our favorite intervention techniques. If you choose not to get physical, you can call for help and/or record the incident.",
+            "slices": [
+                  {
+                        "id": "gc2-l11-s1",
+                        "sliceNumber": 1,
+                        "title": "Standard Variation",
+                        "indicator": "Opponent posts one leg to drive their weight forward from within your guard",
+                        "essentialDetail": "Effective body angle for 3 reasons: hook insertion, elevation power, front leg 'lowness'",
+                        "mostCommonMistake": "Failure to lift the opponent's weight 'north' prior to the sweep",
+                        "badGuyReminder": "Post the leg on the side of your free arm",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Kuzushi (11)",
+                              "Tagalong (23)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l11-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent posts one leg to drive their weight forward from within your guard"
+                              },
+                              {
+                                    "id": "gc2-l11-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective body angle for 3 reasons: hook insertion, elevation power, front leg 'lowness'"
+                              },
+                              {
+                                    "id": "gc2-l11-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to lift the opponent's weight 'north' prior to the sweep"
+                              },
+                              {
+                                    "id": "gc2-l11-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l11-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l11-s2",
+                        "sliceNumber": 2,
+                        "title": "Headlock Variation",
+                        "indicator": "Opponent establishes a headlock and posts the opposite leg to drive their weight forward",
+                        "essentialDetail": "Effective 'chopping' of the opponent's upper- and lower-body base points",
+                        "mostCommonMistake": "Failure to activate the hook immediately after the base chop",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Kuzushi (11)",
+                              "Tension (14)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l11-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent establishes a headlock and posts the opposite leg to drive their weight forward"
+                              },
+                              {
+                                    "id": "gc2-l11-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective 'chopping' of the opponent's upper- and lower-body base points"
+                              },
+                              {
+                                    "id": "gc2-l11-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to activate the hook immediately after the base chop"
+                              },
+                              {
+                                    "id": "gc2-l11-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l11-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l11-s3",
+                        "sliceNumber": 3,
+                        "title": "Bonus: Late Angle Acquisition",
+                        "indicator": "Opponent neutralize your angle by squaring up their hips to yours",
+                        "essentialDetail": "Immediate activation of the hook/lift after the late angle acquisition",
+                        "mostCommonMistake": "Failure to use the shin as the push point for the shrimp",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Velocity (7)",
+                              "Mobility (30)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l11-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent neutralize your angle by squaring up their hips to yours"
+                              },
+                              {
+                                    "id": "gc2-l11-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Immediate activation of the hook/lift after the late angle acquisition"
+                              },
+                              {
+                                    "id": "gc2-l11-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to use the shin as the push point for the shrimp"
+                              },
+                              {
+                                    "id": "gc2-l11-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l11-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l12",
+            "lessonNumber": 12,
+            "technique": "Elbow Escape",
+            "position": "Mount",
+            "overview": "If your opponent is too big, or the Trap & Roll is not possible, the Elbow Escape will serve as your emergency escape from the mount.",
+            "mindsetMinute": "Always attempt the Trap & Roll Escape first because it will put you on top of the fight. If you cannot Trap & Roll your opponent, then use the Elbow Escape to achieve the guard against virtually any opponent.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l12-s1",
+                        "sliceNumber": 1,
+                        "title": "Standard Elbow Escape",
+                        "indicator": "Opponent prevents the Trap & Roll Escape by establishing wide base from the mount",
+                        "essentialDetail": "Curl body sideways during knee shove and flat leg removal",
+                        "mostCommonMistake": "Failure to consider strikes and prevent posture throughout the technique",
+                        "badGuyReminder": "Keep your body rigid to make it realistic",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Frame (10)",
+                              "Mobility (30)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l12-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent prevents the Trap & Roll Escape by establishing wide base from the mount"
+                              },
+                              {
+                                    "id": "gc2-l12-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Curl body sideways during knee shove and flat leg removal"
+                              },
+                              {
+                                    "id": "gc2-l12-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to consider strikes and prevent posture throughout the technique"
+                              },
+                              {
+                                    "id": "gc2-l12-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l12-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l12-s2",
+                        "sliceNumber": 2,
+                        "title": "Hook Removal",
+                        "indicator": "Opponent inserts the leg hooks or \"grapevines\" for better control",
+                        "essentialDetail": "One foot helps the other to remove hook",
+                        "mostCommonMistake": "Forgetting to block the knee with hand during hook removal process",
+                        "badGuyReminder": "Insisting on the grapevines can cause you to sustain a knee injury",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Ratchet (26)",
+                              "Tension (14)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l12-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent inserts the leg hooks or \"grapevines\" for better control"
+                              },
+                              {
+                                    "id": "gc2-l12-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: One foot helps the other to remove hook"
+                              },
+                              {
+                                    "id": "gc2-l12-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Forgetting to block the knee with hand during hook removal process"
+                              },
+                              {
+                                    "id": "gc2-l12-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l12-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l12-s3",
+                        "sliceNumber": 3,
+                        "title": "Fish Hook",
+                        "indicator": "Opponent resists the Standard Elbow Escape by keeping their leg heavy",
+                        "essentialDetail": "Use elbow or hand to shove leg south to facilitate the Fish Hook",
+                        "mostCommonMistake": "Failure to use the flat leg to expose the opponent's foot",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Connection (1)",
+                              "Redirection (29)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l12-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent resists the Standard Elbow Escape by keeping their leg heavy"
+                              },
+                              {
+                                    "id": "gc2-l12-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Use elbow or hand to shove leg south to facilitate the Fish Hook"
+                              },
+                              {
+                                    "id": "gc2-l12-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to use the flat leg to expose the opponent's foot"
+                              },
+                              {
+                                    "id": "gc2-l12-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l12-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l12-s4",
+                        "sliceNumber": 4,
+                        "title": "Heel Drag",
+                        "indicator": "Opponent neutralizes the Fish Hook by keeping their knee heavy while making the foot light",
+                        "essentialDetail": "Use your flat leg to chock the opponent's lower leg off the ground",
+                        "mostCommonMistake": "Weak ankle bite with the back leg",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Reconnaissance (12)",
+                              "Pivot (22)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l12-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent neutralizes the Fish Hook by keeping their knee heavy while making the foot light"
+                              },
+                              {
+                                    "id": "gc2-l12-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Use your flat leg to chock the opponent's lower leg off the ground"
+                              },
+                              {
+                                    "id": "gc2-l12-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak ankle bite with the back leg"
+                              },
+                              {
+                                    "id": "gc2-l12-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l12-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l12-s5",
+                        "sliceNumber": 5,
+                        "title": "Bonus: Surprise Rolls",
+                        "indicator": "Opponent locks up from half guard to prevent the second leg removal",
+                        "essentialDetail": "Bridge and roll in the direction the opponent is most off balance",
+                        "mostCommonMistake": "Failure to revert back to Elbow Escape when opponent bases out to avoid the roll",
+                        "badGuyReminder": "Change your behavior with each repetition",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Kuzushi (11)",
+                              "Creation (5)",
+                              "River (9)"
+                        ],
+                        "drillOrders": "Mount start, Elbow Escape to half guard, Surprise Roll, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l12-s5-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent locks up from half guard to prevent the second leg removal"
+                              },
+                              {
+                                    "id": "gc2-l12-s5-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Bridge and roll in the direction the opponent is most off balance"
+                              },
+                              {
+                                    "id": "gc2-l12-s5-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to revert back to Elbow Escape when opponent bases out to avoid the roll"
+                              },
+                              {
+                                    "id": "gc2-l12-s5-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l12-s5-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, Elbow Escape to half guard, Surprise Roll, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l13",
+            "lessonNumber": 13,
+            "technique": "Positional Control",
+            "position": "Side Mount",
+            "overview": "Side Mount gives you unparalleled control of your opponent with the lowest energy expenditure. In this lesson you will start by learning how to counter the most common escape attempts, and then you'll learn how to transition to the mount position.",
+            "mindsetMinute": "Strikes and submissions are typically more achievable from the mount, but control is better in side mount. Do not rush to the mount. Instead, focus on establishing a good base and allowing your opponent to burn all their energy.",
+            "streetTip": "If you find yourself in an altercation, and the opponent brandishes a weapon, get out and to safety as quickly as possible. If your exit would put others in harm's way, then focus on pinning the weapon bearing arm to the ground.",
+            "slices": [
+                  {
+                        "id": "gc2-l13-s1",
+                        "sliceNumber": 1,
+                        "title": "Roll Prevention",
+                        "indicator": "Opponent attempts to escape by bridging and rolling explosively to either side",
+                        "essentialDetail": "Keep hips low, chest heavy, and use hand and foot for base",
+                        "mostCommonMistake": "Failure to switch to Modified Side Mount when the frame is applied",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Depletion (18)",
+                              "Pyramid (4)"
+                        ],
+                        "drillOrders": "Side mount start, control for 15-30 seconds, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l13-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to escape by bridging and rolling explosively to either side"
+                              },
+                              {
+                                    "id": "gc2-l13-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Keep hips low, chest heavy, and use hand and foot for base"
+                              },
+                              {
+                                    "id": "gc2-l13-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to switch to Modified Side Mount when the frame is applied"
+                              },
+                              {
+                                    "id": "gc2-l13-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l13-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Side mount start, control for 15-30 seconds, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l13-s2",
+                        "sliceNumber": 2,
+                        "title": "Guard Prevention",
+                        "indicator": "Opponent attempts to put you in their guard by pushing your hip and inserting the bottom leg",
+                        "essentialDetail": "Early recognition of guard attempt and quick hip switch",
+                        "mostCommonMistake": "Weak leg positioning and weight distribution while hips are switched",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Detachment (2)",
+                              "Prevention (13)"
+                        ],
+                        "drillOrders": "Side Mount start, control for 15 seconds, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l13-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to put you in their guard by pushing your hip and inserting the bottom leg"
+                              },
+                              {
+                                    "id": "gc2-l13-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Early recognition of guard attempt and quick hip switch"
+                              },
+                              {
+                                    "id": "gc2-l13-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak leg positioning and weight distribution while hips are switched"
+                              },
+                              {
+                                    "id": "gc2-l13-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l13-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Side Mount start, control for 15 seconds, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l13-s3",
+                        "sliceNumber": 3,
+                        "title": "Mount Transition",
+                        "indicator": "Opponent exhausts their escape attempts and you wish to mount",
+                        "essentialDetail": "Effective weight distribution and solid base points",
+                        "mostCommonMistake": "Ineffective front side stretch of opponents blocking leg",
+                        "badGuyReminder": "Verify effective base points at each step of the technique",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Velocity (7)",
+                              "Pyramid (4)"
+                        ],
+                        "drillOrders": "Side Mount start, control for 15 seconds, mount transition, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l13-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent exhausts their escape attempts and you wish to mount"
+                              },
+                              {
+                                    "id": "gc2-l13-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective weight distribution and solid base points"
+                              },
+                              {
+                                    "id": "gc2-l13-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Ineffective front side stretch of opponents blocking leg"
+                              },
+                              {
+                                    "id": "gc2-l13-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l13-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Side Mount start, control for 15 seconds, mount transition, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l13-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Knee-on-Belly Control",
+                        "indicator": "Opponent is pushing you away from side mount too aggressively",
+                        "essentialDetail": "Dynamic outer foot movement and absorption of energy",
+                        "mostCommonMistake": "Failure to drop to side control when necessary",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Detachment (2)",
+                              "Reconnaissance (12)"
+                        ],
+                        "drillOrders": "Standing entry, 2 reps, disengage, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l13-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is pushing you away from side mount too aggressively"
+                              },
+                              {
+                                    "id": "gc2-l13-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Dynamic outer foot movement and absorption of energy"
+                              },
+                              {
+                                    "id": "gc2-l13-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to drop to side control when necessary"
+                              },
+                              {
+                                    "id": "gc2-l13-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l13-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing entry, 2 reps, disengage, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l14",
+            "lessonNumber": 14,
+            "technique": "Body Fold Takedown",
+            "position": "Standing",
+            "overview": "Once you establish the clinch, there is a good chance that your opponent will get desperate and try to hit you in the face. In doing so, they will lean back and unknowingly create the perfect opportunity for the Body Fold Takedown.",
+            "mindsetMinute": "Any time your opponent makes a serious effort to strike at you from the clinch they are exposing themselves to the Body Fold Takedown. If it doesn't work because their base is too strong or they are too large to fold, you can try the Leg Hook Takedown.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l14-s1",
+                        "sliceNumber": 1,
+                        "title": "Body Fold Takedown",
+                        "indicator": "Opponent attempts to throw punches after you establish the clinch",
+                        "essentialDetail": "Tight clinch and slight body pickup prior to the fold",
+                        "mostCommonMistake": "Failure to lift the opponent slightly prior to the fold",
+                        "badGuyReminder": "Hold onto the good guy and put your butt on the ground first then roll back",
+                        "safetyTip": "Release the clinch and take a \"safety step\" to control the descent",
+                        "corePrinciples": [
+                              "Connection (1)",
+                              "Kuzushi (11)"
+                        ],
+                        "drillOrders": "Clinch start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l14-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to throw punches after you establish the clinch"
+                              },
+                              {
+                                    "id": "gc2-l14-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Tight clinch and slight body pickup prior to the fold"
+                              },
+                              {
+                                    "id": "gc2-l14-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to lift the opponent slightly prior to the fold"
+                              },
+                              {
+                                    "id": "gc2-l14-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Release the clinch and take a \"safety step\" to control the descent"
+                              },
+                              {
+                                    "id": "gc2-l14-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Clinch start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l14-s2",
+                        "sliceNumber": 2,
+                        "title": "Bonus: Inside Trip",
+                        "indicator": "Opponent maintains base in the clinch",
+                        "essentialDetail": "Deep hook insertion",
+                        "mostCommonMistake": "Weak propulsion off the back leg",
+                        "badGuyReminder": "Break your fall and keep your head up",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Centerline (31)",
+                              "Kuzushi (11)",
+                              "Anchor (25)"
+                        ],
+                        "drillOrders": "Clinch start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l14-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent maintains base in the clinch"
+                              },
+                              {
+                                    "id": "gc2-l14-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Deep hook insertion"
+                              },
+                              {
+                                    "id": "gc2-l14-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak propulsion off the back leg"
+                              },
+                              {
+                                    "id": "gc2-l14-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l14-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Clinch start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l15",
+            "lessonNumber": 15,
+            "technique": "Clinch (Conservative Opponent)",
+            "position": "Standing",
+            "overview": "In the event that your opponent approaches you conservatively during the fight, and you would like to close the distance, you can use the 'surprise entry' method to establish the clinch.",
+            "mindsetMinute": "Against a conservative opponent, take your time and keep the distance so that they think you are scared, then surprise them by shooting in during one of their confident steps forward. Most importantly, once you decide to shoot in, do not retreat.",
+            "streetTip": "Traction can be compromised on surfaces like grass, dirt, and leaves. When fighting in these environments, remember that the harder you push, the harder you'll slip, so you'll need to adjust your footwork and your expectations accordingly.",
+            "slices": [
+                  {
+                        "id": "gc2-l15-s1",
+                        "sliceNumber": 1,
+                        "title": "Surprise Entry",
+                        "indicator": "Opponent advances towards but does not commit to striking you",
+                        "essentialDetail": "Timing your entry to take place during one of their forward steps",
+                        "mostCommonMistake": "Failure to maintain effective distance prior to the clinch entry",
+                        "badGuyReminder": "Step forward very conservatively and verify your partner's safe distance",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Distance (3)",
+                              "Velocity (7)"
+                        ],
+                        "drillOrders": "Standing start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l15-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent advances towards but does not commit to striking you"
+                              },
+                              {
+                                    "id": "gc2-l15-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Timing your entry to take place during one of their forward steps"
+                              },
+                              {
+                                    "id": "gc2-l15-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to maintain effective distance prior to the clinch entry"
+                              },
+                              {
+                                    "id": "gc2-l15-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l15-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l15-s2",
+                        "sliceNumber": 2,
+                        "title": "Bonus: Pisaō Front Kick",
+                        "indicator": "Opponent is not committing to the attack but you need to close the distance",
+                        "essentialDetail": "Immediate Follow-Up with clinch after the kick",
+                        "mostCommonMistake": "Failure to push off the back leg to generate leverage for the kick",
+                        "badGuyReminder": "Use your hand to give them a target for the kick",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Velocity (7)",
+                              "Posture (16)"
+                        ],
+                        "drillOrders": "Standing start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l15-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is not committing to the attack but you need to close the distance"
+                              },
+                              {
+                                    "id": "gc2-l15-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Immediate Follow-Up with clinch after the kick"
+                              },
+                              {
+                                    "id": "gc2-l15-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to push off the back leg to generate leverage for the kick"
+                              },
+                              {
+                                    "id": "gc2-l15-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l15-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l16",
+            "lessonNumber": 16,
+            "technique": "Headlock Counters",
+            "position": "Mount",
+            "overview": "One of the most common escape strategies used by unskilled individuals is to establish a headlock. The Headlock Counters from the mount will keep you from getting rolled off and prepare you to take advantage of the submission opportunities that will inevitably arise.",
+            "mindsetMinute": "When your opponent grabs you in a headlock from the bottom of the mount, keep in mind that time is on your side. The harder they try to escape, the quicker they will exhaust. Don't be in a hurry to win; focus on maintaining a good position.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l16-s1",
+                        "sliceNumber": 1,
+                        "title": "Basic Positioning (Preparation Drill)",
+                        "indicator": null,
+                        "essentialDetail": "Smooth transition to modified mount and solid hand base",
+                        "mostCommonMistake": "Incorrect back knee position and hips too high",
+                        "badGuyReminder": "Check partner's base by twisting the headlock",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Acceptance (6)",
+                              "Mobility (30)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep on each side, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l16-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Recognize the scenario / trigger."
+                              },
+                              {
+                                    "id": "gc2-l16-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Smooth transition to modified mount and solid hand base"
+                              },
+                              {
+                                    "id": "gc2-l16-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Incorrect back knee position and hips too high"
+                              },
+                              {
+                                    "id": "gc2-l16-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l16-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep on each side, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l16-s2",
+                        "sliceNumber": 2,
+                        "title": "Prevent the Get-Up",
+                        "indicator": "Opponent attempts to roll to their knees with the headlock intact",
+                        "essentialDetail": "Effective head positioning to keep your opponent's shoulders slightly supine",
+                        "mostCommonMistake": "Failure to revert back to full mount when the opponent turns back in",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Tension (14)",
+                              "Pyramid (4)"
+                        ],
+                        "drillOrders": "Mount start, 3 reps, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l16-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to roll to their knees with the headlock intact"
+                              },
+                              {
+                                    "id": "gc2-l16-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective head positioning to keep your opponent's shoulders slightly supine"
+                              },
+                              {
+                                    "id": "gc2-l16-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to revert back to full mount when the opponent turns back in"
+                              },
+                              {
+                                    "id": "gc2-l16-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l16-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 3 reps, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l16-s3",
+                        "sliceNumber": 3,
+                        "title": "Back Mount Finish",
+                        "indicator": "Opponent releases the headlock and rolls to their knees",
+                        "essentialDetail": "Good hand base and quick back hook entry",
+                        "mostCommonMistake": "Weak torso and head alignment from back mount",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Creation (5)",
+                              "Buoyancy (27)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l16-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent releases the headlock and rolls to their knees"
+                              },
+                              {
+                                    "id": "gc2-l16-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Good hand base and quick back hook entry"
+                              },
+                              {
+                                    "id": "gc2-l16-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak torso and head alignment from back mount"
+                              },
+                              {
+                                    "id": "gc2-l16-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l16-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l16-s4",
+                        "sliceNumber": 4,
+                        "title": "Armbar Finish",
+                        "indicator": "Opponent exhausts their escape attempts but keeps the headlock intact",
+                        "essentialDetail": "Effective frame positioning and \"slack\" removal",
+                        "mostCommonMistake": "Using neck strength instead of body weight to apply pressure",
+                        "badGuyReminder": null,
+                        "safetyTip": "Avoid kicking partner's nose/mouth during armbar spin",
+                        "corePrinciples": [
+                              "Frame (10)",
+                              "Fork (15)",
+                              "Tension (14)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l16-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent exhausts their escape attempts but keeps the headlock intact"
+                              },
+                              {
+                                    "id": "gc2-l16-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective frame positioning and \"slack\" removal"
+                              },
+                              {
+                                    "id": "gc2-l16-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Using neck strength instead of body weight to apply pressure"
+                              },
+                              {
+                                    "id": "gc2-l16-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Avoid kicking partner's nose/mouth during armbar spin"
+                              },
+                              {
+                                    "id": "gc2-l16-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l16-s5",
+                        "sliceNumber": 5,
+                        "title": "Bonus: Guillotine Dismount",
+                        "indicator": "Opponent catches a guillotine choke from mount bottom",
+                        "essentialDetail": "Dismounting to the opposite side of the choke",
+                        "mostCommonMistake": "Failure to keep your neck tucked for protection",
+                        "badGuyReminder": "Make sure our partner's hips aren't so high that they become rollable",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Pivot (22)",
+                              "Detachment (2)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l16-s5-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent catches a guillotine choke from mount bottom"
+                              },
+                              {
+                                    "id": "gc2-l16-s5-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Dismounting to the opposite side of the choke"
+                              },
+                              {
+                                    "id": "gc2-l16-s5-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to keep your neck tucked for protection"
+                              },
+                              {
+                                    "id": "gc2-l16-s5-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l16-s5-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l17",
+            "lessonNumber": 17,
+            "technique": "Double Leg Takedown",
+            "position": "Standing",
+            "overview": "If you anticipate difficulty in establishing the clinch, the Double Leg Takedown is a great alternative. In this lesson you will learn the basic mechanics and how to apply it against opponents of varying levels of aggression.",
+            "mindsetMinute": "One disadvantage of the Double Leg Takedown is that you end up inside your opponent's open guard. If you shoot the Double Leg and your opponent sprawls to neutralize your takedown, you may need to sit back and transition to the guard.",
+            "streetTip": "Right before someone is about to engage in an act of physical violence, there are several significant pre-assault indicators. The four big ones we want you to focus on are: 1) the feet, 2) the hands, 3) the eyes, and 4) the distance.",
+            "slices": [
+                  {
+                        "id": "gc2-l17-s1",
+                        "sliceNumber": 1,
+                        "title": "Basic Application (Preparation Drill)",
+                        "indicator": null,
+                        "essentialDetail": "Tight leg control, solid base, and a powerful shoulder drive",
+                        "mostCommonMistake": "Failure to position your head to the opposite side of the penetration step",
+                        "badGuyReminder": null,
+                        "safetyTip": "Bad guy must keep core tight and prevent head from hitting ground",
+                        "corePrinciples": [
+                              "Kuzushi (11)",
+                              "Connection (1)"
+                        ],
+                        "drillOrders": "Standing start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l17-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Recognize the scenario / trigger."
+                              },
+                              {
+                                    "id": "gc2-l17-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Tight leg control, solid base, and a powerful shoulder drive"
+                              },
+                              {
+                                    "id": "gc2-l17-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to position your head to the opposite side of the penetration step"
+                              },
+                              {
+                                    "id": "gc2-l17-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Bad guy must keep core tight and prevent head from hitting ground"
+                              },
+                              {
+                                    "id": "gc2-l17-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l17-s2",
+                        "sliceNumber": 2,
+                        "title": "Aggressive Opponent",
+                        "indicator": "Opponent advances towards you aggressively",
+                        "essentialDetail": "Solid base to stop the opponent's forward momentum",
+                        "mostCommonMistake": "Releasing the legs too soon after the takedown",
+                        "badGuyReminder": "Take 2 slow steps and then become \"aggressive\"",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Distance (3)",
+                              "Depletion (18)"
+                        ],
+                        "drillOrders": "Standing start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l17-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent advances towards you aggressively"
+                              },
+                              {
+                                    "id": "gc2-l17-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Solid base to stop the opponent's forward momentum"
+                              },
+                              {
+                                    "id": "gc2-l17-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Releasing the legs too soon after the takedown"
+                              },
+                              {
+                                    "id": "gc2-l17-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l17-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l17-s3",
+                        "sliceNumber": 3,
+                        "title": "Conservative Opponent",
+                        "indicator": "Opponent advances towards you conservatively",
+                        "essentialDetail": "Jabbing for distraction while simultaneously shooting for the legs",
+                        "mostCommonMistake": "Ineffective distance management",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Creation (5)",
+                              "Velocity (7)"
+                        ],
+                        "drillOrders": "Standing start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l17-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent advances towards you conservatively"
+                              },
+                              {
+                                    "id": "gc2-l17-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Jabbing for distraction while simultaneously shooting for the legs"
+                              },
+                              {
+                                    "id": "gc2-l17-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Ineffective distance management"
+                              },
+                              {
+                                    "id": "gc2-l17-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l17-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l17-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Clinch Climb",
+                        "indicator": "Opponent doesn't fall after your initial Double Leg shot",
+                        "essentialDetail": "Immediate step forward with the trailing leg to initiate the climb",
+                        "mostCommonMistake": "Failure to maintain connection during the climb",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "River (9)",
+                              "Detachment (2)"
+                        ],
+                        "drillOrders": "Standing start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l17-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent doesn't fall after your initial Double Leg shot"
+                              },
+                              {
+                                    "id": "gc2-l17-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Immediate step forward with the trailing leg to initiate the climb"
+                              },
+                              {
+                                    "id": "gc2-l17-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to maintain connection during the climb"
+                              },
+                              {
+                                    "id": "gc2-l17-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l17-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l18",
+            "lessonNumber": 18,
+            "technique": "Headlock Escape 1",
+            "position": "Side Mount",
+            "overview": "Besides punches, headlocks are the single most common form of aggression used by untrained individuals. The Frame Escape is the first of two headlock escape strategies that we recommend you perfect for use against larger adversaries in a ground fight.",
+            "mindsetMinute": "Although headlocks are rarely used by skilled opponents, you must learn and perfect all of the escape techniques since you will almost certainly need them against any unskilled, larger street fight opponent.",
+            "streetTip": "Besides the traction and impact concerns of various terrains, one factor unique to street fights is the existence of various elevations and obstacles. Be aware of steps, roots, curbs, stumps, and other objects that would cause you to trip.",
+            "slices": [
+                  {
+                        "id": "gc2-l18-s1",
+                        "sliceNumber": 1,
+                        "title": "Standard Frame Escape",
+                        "indicator": "Opponent establishes a headlock from the top side mount position",
+                        "essentialDetail": "Sideways body position and quick frame entry",
+                        "mostCommonMistake": "Insufficient hip scoots",
+                        "badGuyReminder": "Observe the proper way to establish a headlock",
+                        "safetyTip": "Tighten neck muscles to prevent injury to the trachea during the scissor choke",
+                        "corePrinciples": [
+                              "Frame (10)",
+                              "Pivot (22)"
+                        ],
+                        "drillOrders": "Headlock start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l18-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent establishes a headlock from the top side mount position"
+                              },
+                              {
+                                    "id": "gc2-l18-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Sideways body position and quick frame entry"
+                              },
+                              {
+                                    "id": "gc2-l18-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Insufficient hip scoots"
+                              },
+                              {
+                                    "id": "gc2-l18-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Tighten neck muscles to prevent injury to the trachea during the scissor choke"
+                              },
+                              {
+                                    "id": "gc2-l18-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Headlock start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l18-s2",
+                        "sliceNumber": 2,
+                        "title": "Scissor Follow-Up",
+                        "indicator": "Opponent effectively resists the Scissor Choke",
+                        "essentialDetail": "Strategic release of the Scissor Choke for optimum control",
+                        "mostCommonMistake": "Weak leg work during transition",
+                        "badGuyReminder": "Neutralize the initial choke by turning and tucking chin",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Detachment (2)",
+                              "Pyramid (4)"
+                        ],
+                        "drillOrders": "Headlock start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l18-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent effectively resists the Scissor Choke"
+                              },
+                              {
+                                    "id": "gc2-l18-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Strategic release of the Scissor Choke for optimum control"
+                              },
+                              {
+                                    "id": "gc2-l18-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak leg work during transition"
+                              },
+                              {
+                                    "id": "gc2-l18-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l18-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Headlock start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l18-s3",
+                        "sliceNumber": 3,
+                        "title": "Super Lock Variation",
+                        "indicator": "Opponent does not release the headlock when you execute the Standard Frame Escape",
+                        "essentialDetail": "Use the momentum from the initial scissor initiate the Follow-Up",
+                        "mostCommonMistake": "Failure to get the leg over the head and chop effectively",
+                        "badGuyReminder": "Hold the headlock snug enough to avoid the first two variations",
+                        "safetyTip": "Be careful not to hurt your partner's neck during the chop",
+                        "corePrinciples": [
+                              "Momentum (21)",
+                              "Tagalong (23)"
+                        ],
+                        "drillOrders": "Headlock start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l18-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent does not release the headlock when you execute the Standard Frame Escape"
+                              },
+                              {
+                                    "id": "gc2-l18-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Use the momentum from the initial scissor initiate the Follow-Up"
+                              },
+                              {
+                                    "id": "gc2-l18-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to get the leg over the head and chop effectively"
+                              },
+                              {
+                                    "id": "gc2-l18-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Be careful not to hurt your partner's neck during the chop"
+                              },
+                              {
+                                    "id": "gc2-l18-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Headlock start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l18-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Headlock Prevention",
+                        "indicator": "Opponent attempts to wrap your neck in a headlock",
+                        "essentialDetail": "Effective arm control and heavy head pressure",
+                        "mostCommonMistake": "Failure to recognize early headlock indicator/preparation",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Anchor (25)",
+                              "Prevention (13)"
+                        ],
+                        "drillOrders": "Side mount start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l18-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to wrap your neck in a headlock"
+                              },
+                              {
+                                    "id": "gc2-l18-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective arm control and heavy head pressure"
+                              },
+                              {
+                                    "id": "gc2-l18-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to recognize early headlock indicator/preparation"
+                              },
+                              {
+                                    "id": "gc2-l18-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l18-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Side mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l19",
+            "lessonNumber": 19,
+            "technique": "Armbar",
+            "position": "Guard",
+            "overview": "Whenever someone attacks your neck or face from within your guard, they are giving you the opportunity to catch them in an Armbar. In this lesson you will learn two variations of the Armbar as well as what to do if the opponent escapes by pulling their arm out.",
+            "mindsetMinute": "Punch protection is the number one concern from the guard. Only if your opponent's arms are exposed and they are not actively punching should you consider an Armbar. If you go for the Armbar and your opponent falls over, simply sit up, adjust your hips and finish it.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l19-s1",
+                        "sliceNumber": 1,
+                        "title": "Low Variation",
+                        "indicator": "Opponent swims inside to attack your chest or throat with their head low",
+                        "essentialDetail": "Constant head control and effective body angle",
+                        "mostCommonMistake": "Weak inside leg movement and body bite",
+                        "badGuyReminder": "Help your partner achieve the 90-degree angle if they have trouble",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Head Control (28)",
+                              "Pivot (22)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l19-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent swims inside to attack your chest or throat with their head low"
+                              },
+                              {
+                                    "id": "gc2-l19-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Constant head control and effective body angle"
+                              },
+                              {
+                                    "id": "gc2-l19-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak inside leg movement and body bite"
+                              },
+                              {
+                                    "id": "gc2-l19-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l19-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l19-s2",
+                        "sliceNumber": 2,
+                        "title": "High Variation",
+                        "indicator": "Opponent attacks your chest or throat with fully extended arms and their head high",
+                        "essentialDetail": "Quick angle acquisition and high hip shot",
+                        "mostCommonMistake": "Weak clamps with both legs",
+                        "badGuyReminder": "Sit tall and grab throat with extended arms while leaning forward",
+                        "safetyTip": "Squeeze very slow since the arm is already fully extended",
+                        "corePrinciples": [
+                              "Momentum (21)",
+                              "Overload (24)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l19-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attacks your chest or throat with fully extended arms and their head high"
+                              },
+                              {
+                                    "id": "gc2-l19-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Quick angle acquisition and high hip shot"
+                              },
+                              {
+                                    "id": "gc2-l19-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak clamps with both legs"
+                              },
+                              {
+                                    "id": "gc2-l19-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Squeeze very slow since the arm is already fully extended"
+                              },
+                              {
+                                    "id": "gc2-l19-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l19-s3",
+                        "sliceNumber": 3,
+                        "title": "Triangle Transition",
+                        "indicator": "Opponent pulls their arm out during your Armbar attempt",
+                        "essentialDetail": "Quick transition to the Triangle Setup position with constant high hips",
+                        "mostCommonMistake": "Late reaction to the pull out with sagging hips",
+                        "badGuyReminder": null,
+                        "safetyTip": "After the transition walk your shoulders back to avoid the spinal stack",
+                        "corePrinciples": [
+                              "Fork (15)",
+                              "Acceptance (6)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l19-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent pulls their arm out during your Armbar attempt"
+                              },
+                              {
+                                    "id": "gc2-l19-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Quick transition to the Triangle Setup position with constant high hips"
+                              },
+                              {
+                                    "id": "gc2-l19-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Late reaction to the pull out with sagging hips"
+                              },
+                              {
+                                    "id": "gc2-l19-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: After the transition walk your shoulders back to avoid the spinal stack"
+                              },
+                              {
+                                    "id": "gc2-l19-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l19-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Cross Grip Variation",
+                        "indicator": "Opponent is kneeling inside your guard",
+                        "essentialDetail": "Solid cross grip control of the arm and effective pivot",
+                        "mostCommonMistake": "Failure to bite high enough with the inside leg",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Anchor (25)",
+                              "Pivot (22)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l19-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is kneeling inside your guard"
+                              },
+                              {
+                                    "id": "gc2-l19-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Solid cross grip control of the arm and effective pivot"
+                              },
+                              {
+                                    "id": "gc2-l19-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to bite high enough with the inside leg"
+                              },
+                              {
+                                    "id": "gc2-l19-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l19-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l20",
+            "lessonNumber": 20,
+            "technique": "Double Ankle Sweep",
+            "position": "Guard",
+            "overview": "One situation in which your opponent is vulnerable for a sweep is when they stand up directly over you to throw punches from within the guard. The Double Ankle sweep is a premium example of how leverage and timing can overcome size and strength.",
+            "mindsetMinute": "If the opponent stands and the ankles are within reach, the Double Ankle sweep is the best option. If you are not 100% certain that you will be able to reach the ankles do not attempt this technique; you are much safer resorting to Stage 4 defensive position.",
+            "streetTip": "What your opponent is wearing determines what grips are available to you in a fight. When they have loose fitting clothing on, not only do you have virtually unlimited ways you can grab and control your opponent, you also have many 'Street Chokes' available to you that wouldn't otherwise be possible.",
+            "slices": [
+                  {
+                        "id": "gc2-l20-s1",
+                        "sliceNumber": 1,
+                        "title": "Knee Thrust Variation",
+                        "indicator": "Opponent stands up with their feet very close to your hips",
+                        "essentialDetail": "Simultaneously grabbing the ankles and thrusting the knees",
+                        "mostCommonMistake": "Letting go of the head and uncrossing the feet too soon",
+                        "badGuyReminder": "Stand tall with your feet very close to your partner's hips",
+                        "safetyTip": "Keep your head from hitting the ground during the sweep",
+                        "corePrinciples": [
+                              "Clock (8)",
+                              "Momentum (21)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l20-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent stands up with their feet very close to your hips"
+                              },
+                              {
+                                    "id": "gc2-l20-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Simultaneously grabbing the ankles and thrusting the knees"
+                              },
+                              {
+                                    "id": "gc2-l20-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Letting go of the head and uncrossing the feet too soon"
+                              },
+                              {
+                                    "id": "gc2-l20-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Keep your head from hitting the ground during the sweep"
+                              },
+                              {
+                                    "id": "gc2-l20-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l20-s2",
+                        "sliceNumber": 2,
+                        "title": "Kick Variation",
+                        "indicator": "Opponent is too tall for the Knee Thrust Variation to be effective",
+                        "essentialDetail": "Keep control of the head until the opponent is completely standing",
+                        "mostCommonMistake": "Attempting to go directly to the mount after the kick",
+                        "badGuyReminder": "Be sure to stand up with your hips high to warrant the Kick Variation",
+                        "safetyTip": "When sitting up after the sweep (bad guy) be sure to keep your hands off the ground to avoid injury",
+                        "corePrinciples": [
+                              "Tension (14)",
+                              "Buoyancy (27)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l20-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is too tall for the Knee Thrust Variation to be effective"
+                              },
+                              {
+                                    "id": "gc2-l20-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Keep control of the head until the opponent is completely standing"
+                              },
+                              {
+                                    "id": "gc2-l20-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Attempting to go directly to the mount after the kick"
+                              },
+                              {
+                                    "id": "gc2-l20-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: When sitting up after the sweep (bad guy) be sure to keep your hands off the ground to avoid injury"
+                              },
+                              {
+                                    "id": "gc2-l20-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l20-s3",
+                        "sliceNumber": 3,
+                        "title": "Bonus: Double Ankle Counter",
+                        "indicator": "Opponent attempts the Double Ankle Sweep on you",
+                        "essentialDetail": "Solid base and quick step-out",
+                        "mostCommonMistake": "Failure to redirect the energy of the opponent's knees",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Redirection (29)",
+                              "Pyramid (4)"
+                        ],
+                        "drillOrders": "Top guard start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l20-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts the Double Ankle Sweep on you"
+                              },
+                              {
+                                    "id": "gc2-l20-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Solid base and quick step-out"
+                              },
+                              {
+                                    "id": "gc2-l20-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to redirect the energy of the opponent's knees"
+                              },
+                              {
+                                    "id": "gc2-l20-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l20-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Top guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l21",
+            "lessonNumber": 21,
+            "technique": "Pull Guard",
+            "position": "Standing",
+            "overview": "If you get into a clinch and you are unable to take your opponent down because they are too strong or you lose control of their hips, you can Pull Guard. By taking away their balance and incorporating your legs, you can neutralize their strikes and control the opponent.",
+            "mindsetMinute": "Whenever possible, you should focus entirely on achieving the takedown and the top position. When you can't take the opponent down, Pulling Guard may be the next best option.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l21-s1",
+                        "sliceNumber": 1,
+                        "title": "Pull Guard",
+                        "indicator": "Opponent prevents you from controlling their hips after you close the distance",
+                        "essentialDetail": "Quick surprise pull on the opponent's shoulders",
+                        "mostCommonMistake": "Ineffective squat and hip shot",
+                        "badGuyReminder": "Make sure to back your hips away and stay bent over to simulate reality",
+                        "safetyTip": "Squat and shoot far back to minimize risk of the knee to the groin",
+                        "corePrinciples": [
+                              "Acceptance (6)",
+                              "Kuzushi (11)"
+                        ],
+                        "drillOrders": "Clinch start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l21-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent prevents you from controlling their hips after you close the distance"
+                              },
+                              {
+                                    "id": "gc2-l21-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Quick surprise pull on the opponent's shoulders"
+                              },
+                              {
+                                    "id": "gc2-l21-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Ineffective squat and hip shot"
+                              },
+                              {
+                                    "id": "gc2-l21-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Squat and shoot far back to minimize risk of the knee to the groin"
+                              },
+                              {
+                                    "id": "gc2-l21-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Clinch start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l21-s2",
+                        "sliceNumber": 2,
+                        "title": "Bonus: Posture Prevention",
+                        "indicator": "Opponent is inside your guard and wants to establish posture",
+                        "essentialDetail": "Using a single underhook or double underhooks to prevent posture",
+                        "mostCommonMistake": "Failure to use your hamstrings to push south on the opponent's thighs",
+                        "badGuyReminder": "Make sure your partner doesn't allow you step over to full mount",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Prevention (13)",
+                              "Posture (16)"
+                        ],
+                        "drillOrders": "Guard start, posture prevention for 15 seconds, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l21-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is inside your guard and wants to establish posture"
+                              },
+                              {
+                                    "id": "gc2-l21-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Using a single underhook or double underhooks to prevent posture"
+                              },
+                              {
+                                    "id": "gc2-l21-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to use your hamstrings to push south on the opponent's thighs"
+                              },
+                              {
+                                    "id": "gc2-l21-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l21-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, posture prevention for 15 seconds, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l22",
+            "lessonNumber": 22,
+            "technique": "Headlock Escape 2",
+            "position": "Side Mount",
+            "overview": "If you are caught by surprise in a headlock and don't have enough time to use the Frame Escape (Headlock Escape 1), you can resort to option number two - the Leg Hook Escape.",
+            "mindsetMinute": "The most important detail in any headlock escape is that your body is sideways and your elbow is tucked. Try to anticipate the headlock so that you can use the Frame Escape, and if this option fails quickly transition to the Leg Hook Escape.",
+            "streetTip": "The hardest fights are the ones we walk away from. Losing control of your emotions and getting into a fight to keep your fragile ego intact is the easy choice. The real challenge is to know you could fight but choose not to.",
+            "slices": [
+                  {
+                        "id": "gc2-l22-s1",
+                        "sliceNumber": 1,
+                        "title": "Standard Leg Hook Escape",
+                        "indicator": "Opponent establishes a tight headlock and neutralizes Headlock Escape 1",
+                        "essentialDetail": "Sideways body and inside elbow tuck",
+                        "mostCommonMistake": "Pulling yourself up rather than pushing off the ground",
+                        "badGuyReminder": "Observe the proper way to secure a headlock",
+                        "safetyTip": "Insert leg hook carefully to avoid kicking your partner in the groin",
+                        "corePrinciples": [
+                              "River (9)",
+                              "Buoyancy (27)"
+                        ],
+                        "drillOrders": "Headlock start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l22-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent establishes a tight headlock and neutralizes Headlock Escape 1"
+                              },
+                              {
+                                    "id": "gc2-l22-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Sideways body and inside elbow tuck"
+                              },
+                              {
+                                    "id": "gc2-l22-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Pulling yourself up rather than pushing off the ground"
+                              },
+                              {
+                                    "id": "gc2-l22-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Insert leg hook carefully to avoid kicking your partner in the groin"
+                              },
+                              {
+                                    "id": "gc2-l22-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Headlock start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l22-s2",
+                        "sliceNumber": 2,
+                        "title": "Super Base Variation",
+                        "indicator": "Opponent establishes a very wide base and prevents the rollover",
+                        "essentialDetail": "Effective use of the front hand/foot to clear the base knee of the opponent",
+                        "mostCommonMistake": "Failure to continue the roll immediately after the base leg is cleared",
+                        "badGuyReminder": "Be careful with the twist this technique puts on your lower back",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Pyramid (4)",
+                              "Kuzushi (11)"
+                        ],
+                        "drillOrders": "Headlock start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l22-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent establishes a very wide base and prevents the rollover"
+                              },
+                              {
+                                    "id": "gc2-l22-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective use of the front hand/foot to clear the base knee of the opponent"
+                              },
+                              {
+                                    "id": "gc2-l22-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to continue the roll immediately after the base leg is cleared"
+                              },
+                              {
+                                    "id": "gc2-l22-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l22-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Headlock start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l22-s3",
+                        "sliceNumber": 3,
+                        "title": "Punch Block Variation",
+                        "indicator": "Opponent attempts to punch while maintaining the headlock",
+                        "essentialDetail": "Use both arms to control the punch initially then release grips as you climb over",
+                        "mostCommonMistake": "Failure to tuck bottom arm in prior to the shoulder get-up",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Anchor (25)",
+                              "Overload (24)",
+                              "Sacrifice (20)"
+                        ],
+                        "drillOrders": "Headlock start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l22-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to punch while maintaining the headlock"
+                              },
+                              {
+                                    "id": "gc2-l22-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Use both arms to control the punch initially then release grips as you climb over"
+                              },
+                              {
+                                    "id": "gc2-l22-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to tuck bottom arm in prior to the shoulder get-up"
+                              },
+                              {
+                                    "id": "gc2-l22-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l22-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Headlock start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l22-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Surprise Roll",
+                        "indicator": "Opponent drives towards you with their weight, negating the leg hook",
+                        "essentialDetail": "Shifting the hips under the opponent prior to the reversal",
+                        "mostCommonMistake": "Not selling the leg hook prior to the direction change",
+                        "badGuyReminder": "Drive all your weight over the opponent",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Reconnaissance (12)",
+                              "Redirection (29)",
+                              "Creation (5)"
+                        ],
+                        "drillOrders": "Headlock start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l22-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent drives towards you with their weight, negating the leg hook"
+                              },
+                              {
+                                    "id": "gc2-l22-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Shifting the hips under the opponent prior to the reversal"
+                              },
+                              {
+                                    "id": "gc2-l22-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Not selling the leg hook prior to the direction change"
+                              },
+                              {
+                                    "id": "gc2-l22-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l22-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Headlock start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l23",
+            "lessonNumber": 23,
+            "technique": "Guillotine Choke",
+            "position": "Standing",
+            "overview": "If your opponent tries to tackle you, you should resort immediately to the Guillotine Choke. In this lesson you will learn the Basic Application first, and then the two variations that you can resort to in a street fight.",
+            "mindsetMinute": "The Guillotine Choke is an extremely simple technique that is easy to catch on an unsuspecting opponent. Focus on perfecting your ability to establish the initial wrap quickly and tightly, and be sure to give the choke enough time to take effect.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l23-s1",
+                        "sliceNumber": 1,
+                        "title": "Basic Application (Preparation Drill)",
+                        "indicator": null,
+                        "essentialDetail": "Hips forward and shoulders back during squeeze",
+                        "mostCommonMistake": "Loose initial wrap",
+                        "badGuyReminder": null,
+                        "safetyTip": "Tighten neck muscles for protection",
+                        "corePrinciples": [
+                              "Tension (14)",
+                              "Overload (24)"
+                        ],
+                        "drillOrders": "Standing start, 1 rep on each side, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l23-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Recognize the scenario / trigger."
+                              },
+                              {
+                                    "id": "gc2-l23-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Hips forward and shoulders back during squeeze"
+                              },
+                              {
+                                    "id": "gc2-l23-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Loose initial wrap"
+                              },
+                              {
+                                    "id": "gc2-l23-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Tighten neck muscles for protection"
+                              },
+                              {
+                                    "id": "gc2-l23-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing start, 1 rep on each side, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l23-s2",
+                        "sliceNumber": 2,
+                        "title": "Standing Variation",
+                        "indicator": "Opponent attempts to tackle you",
+                        "essentialDetail": "Sprawl out until the choke is fully secure then stand up to apply pressure",
+                        "mostCommonMistake": "Trying to apply pressure from the sprawled position",
+                        "badGuyReminder": "Keep ample forward pressure during the initial entry",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Prevention (13)",
+                              "Pyramid (4)",
+                              "Frame (10)"
+                        ],
+                        "drillOrders": "Standing start, 1 rep on each side, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l23-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to tackle you"
+                              },
+                              {
+                                    "id": "gc2-l23-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Sprawl out until the choke is fully secure then stand up to apply pressure"
+                              },
+                              {
+                                    "id": "gc2-l23-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Trying to apply pressure from the sprawled position"
+                              },
+                              {
+                                    "id": "gc2-l23-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l23-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing start, 1 rep on each side, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l23-s3",
+                        "sliceNumber": 3,
+                        "title": "Guard Pull Variation",
+                        "indicator": "Opponent effectively resists the Standing Variation",
+                        "essentialDetail": "High guard and full body extension during the squeeze",
+                        "mostCommonMistake": "Loose neck control during the transition to guard",
+                        "badGuyReminder": "Tighten up your neck muscles and post your hands to soften the fall",
+                        "safetyTip": "Squat down and shoot your hips far back to avoid a knee to groin",
+                        "corePrinciples": [
+                              "Fork (15)",
+                              "Kuzushi (11)"
+                        ],
+                        "drillOrders": "Standing start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l23-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent effectively resists the Standing Variation"
+                              },
+                              {
+                                    "id": "gc2-l23-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: High guard and full body extension during the squeeze"
+                              },
+                              {
+                                    "id": "gc2-l23-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Loose neck control during the transition to guard"
+                              },
+                              {
+                                    "id": "gc2-l23-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Squat down and shoot your hips far back to avoid a knee to groin"
+                              },
+                              {
+                                    "id": "gc2-l23-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l23-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Arm-In Guillotine",
+                        "indicator": "Opponent is in your guard and you aim to submit them",
+                        "essentialDetail": "Targeted lateral pressure coupled with a side curl of the body",
+                        "mostCommonMistake": "Shooting the arm too deep around the opponent's neck",
+                        "badGuyReminder": "Give feedback on the effectiveness",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Isolation (19)",
+                              "Overload (24)"
+                        ],
+                        "drillOrders": "Standing start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l23-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is in your guard and you aim to submit them"
+                              },
+                              {
+                                    "id": "gc2-l23-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Targeted lateral pressure coupled with a side curl of the body"
+                              },
+                              {
+                                    "id": "gc2-l23-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Shooting the arm too deep around the opponent's neck"
+                              },
+                              {
+                                    "id": "gc2-l23-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l23-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l24",
+            "lessonNumber": 24,
+            "technique": "Shrimp Escape",
+            "position": "Side Mount",
+            "overview": "If your opponent is able to get past your guard, you will need to use the Shrimp Escape to put them back where they belong. In this lesson you will learn three variations of the Shrimp Escape, starting with the Block & Shoot Variation.",
+            "mindsetMinute": "You want to avoid getting trapped in the bottom of the side mount at all costs, but in the event you do get trapped, conserve energy and only escape when you're sure the opportunity is available. One of the most important principles is to know when to relax and do nothing.",
+            "streetTip": "Fighting on sand can be very forgiving, but your opponent may try to use the sand to temporarily blind you. To avoid this, always know where their hands are, control the wrists whenever possible, and when you can't, make sure your face is turned away from the free hand.",
+            "slices": [
+                  {
+                        "id": "gc2-l24-s1",
+                        "sliceNumber": 1,
+                        "title": "Block & Shoot Variation",
+                        "indicator": "Opponent passes your guard and attempts to establish the side mount",
+                        "essentialDetail": "Shoot the legs into position immediately after the block",
+                        "mostCommonMistake": "Inefficient removal of the inside leg after the initial shot",
+                        "badGuyReminder": "Don't post your insider hand on the ground (you might get kneed)",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Velocity (7)",
+                              "Momentum (21)"
+                        ],
+                        "drillOrders": "Distant kneeling side mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l24-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent passes your guard and attempts to establish the side mount"
+                              },
+                              {
+                                    "id": "gc2-l24-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Shoot the legs into position immediately after the block"
+                              },
+                              {
+                                    "id": "gc2-l24-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Inefficient removal of the inside leg after the initial shot"
+                              },
+                              {
+                                    "id": "gc2-l24-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l24-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Distant kneeling side mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l24-s2",
+                        "sliceNumber": 2,
+                        "title": "Shrimp & Shoot Variation",
+                        "indicator": "Opponent establishes the side mount",
+                        "essentialDetail": "Effective frames and immediate guard shot after the shrimp",
+                        "mostCommonMistake": "Shooting one leg at a time instead of both legs together",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Frame (10)",
+                              "Mobility (30)"
+                        ],
+                        "drillOrders": "Side mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l24-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent establishes the side mount"
+                              },
+                              {
+                                    "id": "gc2-l24-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective frames and immediate guard shot after the shrimp"
+                              },
+                              {
+                                    "id": "gc2-l24-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Shooting one leg at a time instead of both legs together"
+                              },
+                              {
+                                    "id": "gc2-l24-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l24-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Side mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l24-s3",
+                        "sliceNumber": 3,
+                        "title": "Rider Variation",
+                        "indicator": "Opponent establishes the side mount and prevents your initial escape attempts",
+                        "essentialDetail": "Conserve energy and establish punch-safe positioning",
+                        "mostCommonMistake": "Trying to escape while the opponent is focusing on control",
+                        "badGuyReminder": "Control very tight for a few seconds then attempt to create space for a punch",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Clock (8)",
+                              "False Surrender (17)",
+                              "Tagalong (23)"
+                        ],
+                        "drillOrders": "Side mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l24-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent establishes the side mount and prevents your initial escape attempts"
+                              },
+                              {
+                                    "id": "gc2-l24-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Conserve energy and establish punch-safe positioning"
+                              },
+                              {
+                                    "id": "gc2-l24-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Trying to escape while the opponent is focusing on control"
+                              },
+                              {
+                                    "id": "gc2-l24-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l24-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Side mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l24-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Half Guard Recovery",
+                        "indicator": "Opponent has established side mount but the Shrimp Escape doesn't work",
+                        "essentialDetail": "Effective control of the opponent's inside leg",
+                        "mostCommonMistake": "Failure to consider punch exposure during the escape",
+                        "badGuyReminder": "Change your leg behavior to force different variations",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "River (9)",
+                              "Ratchet (26)"
+                        ],
+                        "drillOrders": "Side mount start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l24-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent has established side mount but the Shrimp Escape doesn't work"
+                              },
+                              {
+                                    "id": "gc2-l24-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective control of the opponent's inside leg"
+                              },
+                              {
+                                    "id": "gc2-l24-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to consider punch exposure during the escape"
+                              },
+                              {
+                                    "id": "gc2-l24-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l24-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Side mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l25",
+            "lessonNumber": 25,
+            "technique": "Kimura Armlock",
+            "position": "Guard",
+            "overview": "Although this technique can be applied from several different positions, we have chosen to teach it to you from the bottom of the guard, since that is where you are most likely to end up against a larger opponent.",
+            "mindsetMinute": "Allow your opponent to exhaust their initial barrage of punches before attempting the Kimura. Focus most of your efforts on effectively shooting your top arm into position since that is the arm that will prevent their escape. Once the double wrist grab is established, hug it tight, keep it bent, and focus on scooting out.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l25-s1",
+                        "sliceNumber": 1,
+                        "title": "Basic Application (Preparation Drill)",
+                        "indicator": null,
+                        "essentialDetail": "Effective double wrist grab and 90-degree elbow bend",
+                        "mostCommonMistake": "Failure to acquire the proper hip and body angle",
+                        "badGuyReminder": "Start with both hands planted on the ground",
+                        "safetyTip": "Squeeze very slowly",
+                        "corePrinciples": [
+                              "Overload (24)",
+                              "Anchor (25)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l25-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Recognize the scenario / trigger."
+                              },
+                              {
+                                    "id": "gc2-l25-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective double wrist grab and 90-degree elbow bend"
+                              },
+                              {
+                                    "id": "gc2-l25-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to acquire the proper hip and body angle"
+                              },
+                              {
+                                    "id": "gc2-l25-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Squeeze very slowly"
+                              },
+                              {
+                                    "id": "gc2-l25-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l25-s2",
+                        "sliceNumber": 2,
+                        "title": "Rider Variation",
+                        "indicator": "Opponent pushes off the ground from within Stage 1 guard control",
+                        "essentialDetail": "Effective head control and hip scoot during the \"ride\"",
+                        "mostCommonMistake": "Grabbing the wrist too soon",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Tagalong (23)",
+                              "Velocity (7)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l25-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent pushes off the ground from within Stage 1 guard control"
+                              },
+                              {
+                                    "id": "gc2-l25-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective head control and hip scoot during the \"ride\""
+                              },
+                              {
+                                    "id": "gc2-l25-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Grabbing the wrist too soon"
+                              },
+                              {
+                                    "id": "gc2-l25-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l25-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l25-s3",
+                        "sliceNumber": 3,
+                        "title": "Forced Variation",
+                        "indicator": "Opponent exhausts and remains stationary in Stage 1 guard control",
+                        "essentialDetail": "Scoot hips to the side of the opponent’s head to facilitate the Get-Up",
+                        "mostCommonMistake": "Failure to use one hand to push the head under the other armpit",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Redirection (29)",
+                              "Ratchet (26)",
+                              "Overload (24)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l25-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent exhausts and remains stationary in Stage 1 guard control"
+                              },
+                              {
+                                    "id": "gc2-l25-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Scoot hips to the side of the opponent’s head to facilitate the Get-Up"
+                              },
+                              {
+                                    "id": "gc2-l25-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to use one hand to push the head under the other armpit"
+                              },
+                              {
+                                    "id": "gc2-l25-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l25-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l25-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Stage 1.5 Variation",
+                        "indicator": "Opponent is being controlled in Stage 1.5",
+                        "essentialDetail": "Effective counter pressure generated by your knee and hand",
+                        "mostCommonMistake": "Failure to redirect the opponent’s head out of your chest",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Tension (14)",
+                              "Redirection (29)",
+                              "Grandmaster (32)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l25-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is being controlled in Stage 1.5"
+                              },
+                              {
+                                    "id": "gc2-l25-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective counter pressure generated by your knee and hand"
+                              },
+                              {
+                                    "id": "gc2-l25-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to redirect the opponent’s head out of your chest"
+                              },
+                              {
+                                    "id": "gc2-l25-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l25-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l26",
+            "lessonNumber": 26,
+            "technique": "Standing Headlock Defense",
+            "position": "Standing",
+            "overview": "Without the proper escape strategy, the Standing Headlock can be a very painful and demoralizing experience, but with the proper technique you can turn the tables and use their hold to your advantage.",
+            "mindsetMinute": "Once caught in the headlock, don't hesitate, just step, sit and spin. If you don't go right away, they may take you to the ground and gain the upper hand. Keep in mind that it must be conducted in one smooth motion for the momentum to take full effect.",
+            "streetTip": "If someone wants to bite you in the course of a fight, it's because they're desperate. To avoid this, always pay attention to where your opponent's mouth is. If you have a submission locked in and they attempt to bite you, never underestimate the power of the submission; give them a little pressure and watch how quickly they release the bite.",
+            "slices": [
+                  {
+                        "id": "gc2-l26-s1",
+                        "sliceNumber": 1,
+                        "title": "Standard Variation",
+                        "indicator": "Opponent catches you in a headlock while standing",
+                        "essentialDetail": "Step, sit, and spin in one fluid motion",
+                        "mostCommonMistake": "Incorrect sitting position and bending the back leg",
+                        "badGuyReminder": "Hold the headlock loosely to protect your partner's neck",
+                        "safetyTip": "Tighten up your neck muscles for protection",
+                        "corePrinciples": [
+                              "Anchor (25)",
+                              "Momentum (21)"
+                        ],
+                        "drillOrders": "Headlock start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l26-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent catches you in a headlock while standing"
+                              },
+                              {
+                                    "id": "gc2-l26-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Step, sit, and spin in one fluid motion"
+                              },
+                              {
+                                    "id": "gc2-l26-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Incorrect sitting position and bending the back leg"
+                              },
+                              {
+                                    "id": "gc2-l26-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Tighten up your neck muscles for protection"
+                              },
+                              {
+                                    "id": "gc2-l26-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Headlock start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l26-s2",
+                        "sliceNumber": 2,
+                        "title": "Bonus: Smart Base Variation",
+                        "indicator": "Opponent establishes a standing headlock while maintaining a very wide stance",
+                        "essentialDetail": "Sitting straight down after the setup step and the through step",
+                        "mostCommonMistake": "Failure to roll to the top position after the takedown",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Kuzushi (11)",
+                              "Momentum (21)"
+                        ],
+                        "drillOrders": "Headlock start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l26-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent establishes a standing headlock while maintaining a very wide stance"
+                              },
+                              {
+                                    "id": "gc2-l26-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Sitting straight down after the setup step and the through step"
+                              },
+                              {
+                                    "id": "gc2-l26-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to roll to the top position after the takedown"
+                              },
+                              {
+                                    "id": "gc2-l26-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l26-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Headlock start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l27",
+            "lessonNumber": 27,
+            "technique": "Punch Block Series (Stage 5)",
+            "position": "Guard",
+            "overview": "If, while in Stage 4, your opponent is not leaning forward heavily enough to be dropped to Stage 1, it is best to kick them away to Stage 5. In this lesson you will learn how to defend from Stage 5 as well as what to do if the opponent tries to throw your legs aside.",
+            "mindsetMinute": "If your opponent backs up far enough, do not hesitate to stand up in base. If your opponent rushes in for a punch, use both feet to block their hips then drop them into Stage 1 immediately. If they throw your legs aside, use the Rollover Technique to stop them.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l27-s1",
+                        "sliceNumber": 1,
+                        "title": "Stage 5",
+                        "indicator": "Opponent refrains from leaning forward in Stage 4 of the Punch Block Series",
+                        "essentialDetail": "Use your front leg to push and pivot while keeping the other leg coiled and ready to kick",
+                        "mostCommonMistake": "Blocking leg too extended making it too easy to grab",
+                        "badGuyReminder": "From Stage 5 move side to side then rush in for a punch",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Distance (3)",
+                              "Clock (8)"
+                        ],
+                        "drillOrders": "Stage 1 start, cycle: 1-4-5-4-1, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l27-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent refrains from leaning forward in Stage 4 of the Punch Block Series"
+                              },
+                              {
+                                    "id": "gc2-l27-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Use your front leg to push and pivot while keeping the other leg coiled and ready to kick"
+                              },
+                              {
+                                    "id": "gc2-l27-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Blocking leg too extended making it too easy to grab"
+                              },
+                              {
+                                    "id": "gc2-l27-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l27-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Stage 1 start, cycle: 1-4-5-4-1, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l27-s2",
+                        "sliceNumber": 2,
+                        "title": "Rollover Technique",
+                        "indicator": "Opponent grabs your leg and throws it aside to punch or pass",
+                        "essentialDetail": "Tight core and effective shoulder turn during rollover motion",
+                        "mostCommonMistake": "Swiping instead of blocking with the rollover leg",
+                        "badGuyReminder": "Throw the leg and then step forward so that your partner has something to block",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Tagalong (23)",
+                              "Frame (10)"
+                        ],
+                        "drillOrders": "Stage 5 start, conduct 3 rollovers on each side, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l27-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent grabs your leg and throws it aside to punch or pass"
+                              },
+                              {
+                                    "id": "gc2-l27-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Tight core and effective shoulder turn during rollover motion"
+                              },
+                              {
+                                    "id": "gc2-l27-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Swiping instead of blocking with the rollover leg"
+                              },
+                              {
+                                    "id": "gc2-l27-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l27-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Stage 5 start, conduct 3 rollovers on each side, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l27-s3",
+                        "sliceNumber": 3,
+                        "title": "Bonus: High-Low Guard",
+                        "indicator": "Opponent throws your legs aggressively to pass your guard",
+                        "essentialDetail": "One leg over the head, one leg blocking the opponent's torso",
+                        "mostCommonMistake": "Failure to keep your head away from opponent's control",
+                        "badGuyReminder": "Aim for head control as you pass the guard",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Connection (1)",
+                              "Head Control (28)"
+                        ],
+                        "drillOrders": "Standing open guard start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l27-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent throws your legs aggressively to pass your guard"
+                              },
+                              {
+                                    "id": "gc2-l27-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: One leg over the head, one leg blocking the opponent's torso"
+                              },
+                              {
+                                    "id": "gc2-l27-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to keep your head away from opponent's control"
+                              },
+                              {
+                                    "id": "gc2-l27-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l27-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing open guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l28",
+            "lessonNumber": 28,
+            "technique": "Hook Sweep",
+            "position": "Guard",
+            "overview": "If your opponent is leaning forward from Stage 4 but has one leg forward for base, you may have difficulty dropping them back into Stage 1. This is precisely when you would use the Hook Sweep to reverse the position.",
+            "mindsetMinute": "From Stage 4, focus on what your opponent is doing with their bodyweight. If they are leaning forward aggressively, the best option would be a transition back to Stage 1. If they are standing with one leg more forward than the other, they are creating the perfect opportunity for the Hook Sweep.",
+            "streetTip": "Eye gouges are one of the most feared street fight behaviors. Regardless of the position you're in, the key is to get the over-arm positioning on your opponent, so they don't have direct access to your eyes.",
+            "slices": [
+                  {
+                        "id": "gc2-l28-s1",
+                        "sliceNumber": 1,
+                        "title": "Hook Sweep",
+                        "indicator": "Opponent stands with one leg forward in Stage 4 of the Punch Block Series",
+                        "essentialDetail": "Kick the hips up and back while pulling the foot off the ground",
+                        "mostCommonMistake": "Weak inside knee hook with the non-kicking leg",
+                        "badGuyReminder": "Keep your base strong to verify the legitimacy of the sweep",
+                        "safetyTip": "Make sure to push the hips and pull the legs powerfully to minimize the foot crush",
+                        "corePrinciples": [
+                              "Tension (14)",
+                              "Kuzushi (11)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l28-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent stands with one leg forward in Stage 4 of the Punch Block Series"
+                              },
+                              {
+                                    "id": "gc2-l28-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Kick the hips up and back while pulling the foot off the ground"
+                              },
+                              {
+                                    "id": "gc2-l28-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak inside knee hook with the non-kicking leg"
+                              },
+                              {
+                                    "id": "gc2-l28-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Make sure to push the hips and pull the legs powerfully to minimize the foot crush"
+                              },
+                              {
+                                    "id": "gc2-l28-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l28-s2",
+                        "sliceNumber": 2,
+                        "title": "Sweep Follow-Up",
+                        "indicator": "Opponent attempts to stand up after the Hook Sweep is executed",
+                        "essentialDetail": "Stand up in base and be ready to rush your partner before they stand up",
+                        "mostCommonMistake": "Ineffective chest push during side mount Follow-Up",
+                        "badGuyReminder": "Get up slowly after the sweep to give your partner time to follow all steps",
+                        "safetyTip": "Bad guy should avoid placing hands on the ground to prevent injury",
+                        "corePrinciples": [
+                              "Buoyancy (27)",
+                              "Depletion (18)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l28-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to stand up after the Hook Sweep is executed"
+                              },
+                              {
+                                    "id": "gc2-l28-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Stand up in base and be ready to rush your partner before they stand up"
+                              },
+                              {
+                                    "id": "gc2-l28-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Ineffective chest push during side mount Follow-Up"
+                              },
+                              {
+                                    "id": "gc2-l28-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Bad guy should avoid placing hands on the ground to prevent injury"
+                              },
+                              {
+                                    "id": "gc2-l28-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l28-s3",
+                        "sliceNumber": 3,
+                        "title": "Bonus: Knee Slice Open Guard Pass",
+                        "indicator": "Opponent attempts to prevent your open guard pass",
+                        "essentialDetail": "Clearing the opponent's feet from posting on your body",
+                        "mostCommonMistake": "Failure to achieve the underhook during the pass",
+                        "badGuyReminder": null,
+                        "safetyTip": "Be considerate of the shin slicing onto your opponent's inner thigh during the pass",
+                        "corePrinciples": [
+                              "Centerline (31)",
+                              "Frame (10)"
+                        ],
+                        "drillOrders": "Standing open guard start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l28-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to prevent your open guard pass"
+                              },
+                              {
+                                    "id": "gc2-l28-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Clearing the opponent's feet from posting on your body"
+                              },
+                              {
+                                    "id": "gc2-l28-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to achieve the underhook during the pass"
+                              },
+                              {
+                                    "id": "gc2-l28-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Be considerate of the shin slicing onto your opponent's inner thigh during the pass"
+                              },
+                              {
+                                    "id": "gc2-l28-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing open guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l29",
+            "lessonNumber": 29,
+            "technique": "Rear Takedown",
+            "position": "Standing",
+            "overview": "Any time your head ends up under your opponent's arm in a clinch, you can use it to transition into the Rear Clinch control position, from where you can set up the Rear Takedown.",
+            "mindsetMinute": "Regardless of how you end up in the Rear Clinch, once you get there you should have only one objective: execute the Rear Takedown and end the fight as efficiently and humanely as possible.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l29-s1",
+                        "sliceNumber": 1,
+                        "title": "Rear Clinch Acquisition",
+                        "indicator": "Opponent positions their arm over your head after you establish the clinch",
+                        "essentialDetail": "Hips close and head high during the transition",
+                        "mostCommonMistake": "Weak base and control from the rear clinch",
+                        "badGuyReminder": "Check opponent's base in the rear clinch by moving in every direction",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Acceptance (6)",
+                              "River (9)"
+                        ],
+                        "drillOrders": "Clinch start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l29-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent positions their arm over your head after you establish the clinch"
+                              },
+                              {
+                                    "id": "gc2-l29-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Hips close and head high during the transition"
+                              },
+                              {
+                                    "id": "gc2-l29-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak base and control from the rear clinch"
+                              },
+                              {
+                                    "id": "gc2-l29-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l29-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Clinch start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l29-s2",
+                        "sliceNumber": 2,
+                        "title": "Rear Takedown",
+                        "indicator": "Opponent is standing from within you rear clinch control",
+                        "essentialDetail": "Proper sitting angle and effective 'bungy-cord' pull on the hips",
+                        "mostCommonMistake": "Too much twist on the fall, failure to keep blocking leg straight",
+                        "badGuyReminder": "Keep your head from hitting the ground",
+                        "safetyTip": "Be sure to avoid sitting laterally on the bad guy's knee during the rear takedown",
+                        "corePrinciples": [
+                              "Detachment (2)",
+                              "Tension (14)",
+                              "Momentum (21)"
+                        ],
+                        "drillOrders": "Rear clinch start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l29-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is standing from within you rear clinch control"
+                              },
+                              {
+                                    "id": "gc2-l29-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Proper sitting angle and effective 'bungy-cord' pull on the hips"
+                              },
+                              {
+                                    "id": "gc2-l29-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Too much twist on the fall, failure to keep blocking leg straight"
+                              },
+                              {
+                                    "id": "gc2-l29-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Be sure to avoid sitting laterally on the bad guy's knee during the rear takedown"
+                              },
+                              {
+                                    "id": "gc2-l29-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Rear clinch start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l29-s3",
+                        "sliceNumber": 3,
+                        "title": "Bonus: Standing Rear Naked Choke",
+                        "indicator": "Opponent is aggressing towards another person and you intervene from the rear",
+                        "essentialDetail": "Simultaneous knee kick and shoulder pull",
+                        "mostCommonMistake": "Failure to kick the knee with the correct foot",
+                        "badGuyReminder": null,
+                        "safetyTip": "Protect their head from hitting the ground during the full descent",
+                        "corePrinciples": [
+                              "Velocity (7)",
+                              "Posture (16)"
+                        ],
+                        "drillOrders": "Rear entry start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l29-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is aggressing towards another person and you intervene from the rear"
+                              },
+                              {
+                                    "id": "gc2-l29-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Simultaneous knee kick and shoulder pull"
+                              },
+                              {
+                                    "id": "gc2-l29-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to kick the knee with the correct foot"
+                              },
+                              {
+                                    "id": "gc2-l29-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Protect their head from hitting the ground during the full descent"
+                              },
+                              {
+                                    "id": "gc2-l29-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Rear entry start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l30",
+            "lessonNumber": 30,
+            "technique": "Haymaker Punch Defense",
+            "position": "Standing",
+            "overview": "The Haymaker Punch Defense is used when a determined attacker comes at you from a distance with the objective of putting all of their bodyweight behind one fight-ending punch. Because of this punch's power and predictability, the best option is to slip underneath it and get behind your opponent.",
+            "mindsetMinute": "If the punch is totally predictable, use the Haymaker Punch Defense. If the punches are not predictable, protect your face and use the standard Clinch entry strategies for an aggressive opponent.",
+            "streetTip": "Fighting on sloped terrain presents all sorts of unique challenges and opportunities. For the clinch and takedown, you'll want to pivot around your opponent so you're shooting downhill. Gravity can be manipulated in your favor.",
+            "slices": [
+                  {
+                        "id": "gc2-l30-s1",
+                        "sliceNumber": 1,
+                        "title": "Haymaker Punch Defense",
+                        "indicator": "Opponent throws very predictable haymaker punch at your face",
+                        "essentialDetail": "Step with the front leg and protect your head with the front arm",
+                        "mostCommonMistake": "Head remains in front of chest instead of slipping around the back",
+                        "badGuyReminder": "Aim for the head to make the punch as real as possible",
+                        "safetyTip": "Start slowly and increase speed as proficiency grows",
+                        "corePrinciples": [
+                              "Distance (3)",
+                              "Mobility (30)"
+                        ],
+                        "drillOrders": "Standing start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l30-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent throws very predictable haymaker punch at your face"
+                              },
+                              {
+                                    "id": "gc2-l30-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Step with the front leg and protect your head with the front arm"
+                              },
+                              {
+                                    "id": "gc2-l30-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Head remains in front of chest instead of slipping around the back"
+                              },
+                              {
+                                    "id": "gc2-l30-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Start slowly and increase speed as proficiency grows"
+                              },
+                              {
+                                    "id": "gc2-l30-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Standing start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l30-s2",
+                        "sliceNumber": 2,
+                        "title": "Bonus: Verbal De-Escalation",
+                        "indicator": "Opponent is behaving aggressively but hasn't attacked physically",
+                        "essentialDetail": "Distance and communication to lower the combative energy of the interaction",
+                        "mostCommonMistake": "Egos and alcohol",
+                        "badGuyReminder": "Play the part to make the drill the most fun",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Sacrifice (20)",
+                              "Distance (3)"
+                        ],
+                        "drillOrders": "Verbally aggressive start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l30-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is behaving aggressively but hasn't attacked physically"
+                              },
+                              {
+                                    "id": "gc2-l30-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Distance and communication to lower the combative energy of the interaction"
+                              },
+                              {
+                                    "id": "gc2-l30-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Egos and alcohol"
+                              },
+                              {
+                                    "id": "gc2-l30-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l30-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Verbally aggressive start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l31",
+            "lessonNumber": 31,
+            "technique": "Take the Back",
+            "position": "Guard",
+            "overview": "When a person drives all their weight forward from within your guard, they unknowingly create a perfect opportunity for you to take their back, especially when they are attacking your neck or face with one of their hands.",
+            "mindsetMinute": "Your top priority during each step of this technique is control. Wait for your opponent to calm down before you progress to the next step. If you move too quickly, you risk allowing them to escape. Techniques like this teach you to look for the good that is hidden in a bad situation.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l31-s1",
+                        "sliceNumber": 1,
+                        "title": "Head & Arm Control",
+                        "indicator": "Opponent drives their forearm in your throat from Stage 1",
+                        "essentialDetail": "Effective use of legs to control opponent's weight and neutralize forearm choke",
+                        "mostCommonMistake": "Weak initial angle and loose head and arm control",
+                        "badGuyReminder": "Lean forward heavily to give your partner the chance to redirect your energy",
+                        "safetyTip": "Tighten up your neck muscles and turn your chin to the side of the elbow to protect neck",
+                        "corePrinciples": [
+                              "Sacrifice (20)",
+                              "Redirection (29)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, control for 5-10 seconds, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l31-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent drives their forearm in your throat from Stage 1"
+                              },
+                              {
+                                    "id": "gc2-l31-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective use of legs to control opponent's weight and neutralize forearm choke"
+                              },
+                              {
+                                    "id": "gc2-l31-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak initial angle and loose head and arm control"
+                              },
+                              {
+                                    "id": "gc2-l31-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Tighten up your neck muscles and turn your chin to the side of the elbow to protect neck"
+                              },
+                              {
+                                    "id": "gc2-l31-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, control for 5-10 seconds, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l31-s2",
+                        "sliceNumber": 2,
+                        "title": "Angle Acquisition",
+                        "indicator": "Opponent calms down after you establish Head and Arm Control",
+                        "essentialDetail": "Wait until the opponent stops trying to pull their arm out before achieving the angle",
+                        "mostCommonMistake": "Creating the arm escape opportunity by dropping the head to the ground",
+                        "badGuyReminder": "Stay strong on your knees rather than falling limp to the ground after the leg chop",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Centerline (31)",
+                              "Ratchet (26)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, control for 5-10 seconds, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l31-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent calms down after you establish Head and Arm Control"
+                              },
+                              {
+                                    "id": "gc2-l31-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Wait until the opponent stops trying to pull their arm out before achieving the angle"
+                              },
+                              {
+                                    "id": "gc2-l31-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Creating the arm escape opportunity by dropping the head to the ground"
+                              },
+                              {
+                                    "id": "gc2-l31-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l31-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, control for 5-10 seconds, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l31-s3",
+                        "sliceNumber": 3,
+                        "title": "Final Get-Up",
+                        "indicator": "Opponent calms down after you acquire the angled body position",
+                        "essentialDetail": "Effective body hug, elbow tuck, and bottom knee base",
+                        "mostCommonMistake": "Failure to pronate the shoulders prior to the shoulder Get-Up",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Tagalong (23)",
+                              "Buoyancy (27)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l31-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent calms down after you acquire the angled body position"
+                              },
+                              {
+                                    "id": "gc2-l31-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective body hug, elbow tuck, and bottom knee base"
+                              },
+                              {
+                                    "id": "gc2-l31-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to pronate the shoulders prior to the shoulder Get-Up"
+                              },
+                              {
+                                    "id": "gc2-l31-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l31-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l31-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Headlock Variation",
+                        "indicator": "Opponent establishes a headlock from within your guard",
+                        "essentialDetail": "Use a solid frame and a guard extension to create the duck-under window",
+                        "mostCommonMistake": "Failure to connect to the opponent immediately after the head slip",
+                        "badGuyReminder": "Check the control at each phase of the technique",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Frame (10)",
+                              "Velocity (7)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l31-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent establishes a headlock from within your guard"
+                              },
+                              {
+                                    "id": "gc2-l31-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Use a solid frame and a guard extension to create the duck-under window"
+                              },
+                              {
+                                    "id": "gc2-l31-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to connect to the opponent immediately after the head slip"
+                              },
+                              {
+                                    "id": "gc2-l31-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l31-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l32",
+            "lessonNumber": 32,
+            "technique": "Guillotine Defense",
+            "position": "Standing",
+            "overview": "The Guillotine Choke is one of the most common techniques used by unskilled individuals. Although the proper clinch position should prevent it, your opponent may surprise you if your head is too low. In this lesson, you will learn the most important Guillotine Defense principles.",
+            "mindsetMinute": "Never forget the Golden Rule: When stuck in the Guillotine, always move to the opposite side of the choke! If the standard knee chop is not successful, you may need to resort to a more assertive outside trip. Either way, keep your chin tucked and act quickly.",
+            "streetTip": "In a street fight, you can't rely on a clock to save you. The fight could last 10 seconds or 10 minutes. Knowing this, you'll want to identify 'check points' or safety positions where you can conserve energy and control your opponent without sustaining damage. Oftentimes it's not who attacks the most who wins, but rather, who exhausts the least.",
+            "slices": [
+                  {
+                        "id": "gc2-l32-s1",
+                        "sliceNumber": 1,
+                        "title": "Standard Variation",
+                        "indicator": "Opponent catches you in a Guillotine Choke while standing",
+                        "essentialDetail": "Move to the side opposite the choke",
+                        "mostCommonMistake": "Weak knee chop and body fold",
+                        "badGuyReminder": "Keep your feet in a fixed position to allow your partner to achieve the angle",
+                        "safetyTip": "Control the descent by shuffling your feet north after the chop",
+                        "corePrinciples": [
+                              "Anchor (25)",
+                              "Pivot (22)"
+                        ],
+                        "drillOrders": "Guillotine start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l32-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent catches you in a Guillotine Choke while standing"
+                              },
+                              {
+                                    "id": "gc2-l32-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Move to the side opposite the choke"
+                              },
+                              {
+                                    "id": "gc2-l32-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Weak knee chop and body fold"
+                              },
+                              {
+                                    "id": "gc2-l32-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Control the descent by shuffling your feet north after the chop"
+                              },
+                              {
+                                    "id": "gc2-l32-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guillotine start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l32-s2",
+                        "sliceNumber": 2,
+                        "title": "Bonus: Outside Trip Variation",
+                        "indicator": "Opponent catches you in a Guillotine Choke while standing",
+                        "essentialDetail": "Effective propulsion after the hook is inserted",
+                        "mostCommonMistake": "Failure to 'triangulate' immediately after the neck wrap",
+                        "badGuyReminder": "Keep your head from hitting the ground",
+                        "safetyTip": "Avoid crashing into your partner's ribs with too much weight",
+                        "corePrinciples": [
+                              "Kuzushi (11)",
+                              "Overload (24)"
+                        ],
+                        "drillOrders": "Guillotine start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l32-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent catches you in a Guillotine Choke while standing"
+                              },
+                              {
+                                    "id": "gc2-l32-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective propulsion after the hook is inserted"
+                              },
+                              {
+                                    "id": "gc2-l32-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to 'triangulate' immediately after the neck wrap"
+                              },
+                              {
+                                    "id": "gc2-l32-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Avoid crashing into your partner's ribs with too much weight"
+                              },
+                              {
+                                    "id": "gc2-l32-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guillotine start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l33",
+            "lessonNumber": 33,
+            "technique": "Elbow Escape",
+            "position": "Side Mount",
+            "overview": "If your opponent is able to prevent the Shrimp Escape, the best thing to do is conserve energy and wait until they transition from side mount to full mount so that you can use the Elbow Escape to recompose the guard.",
+            "mindsetMinute": "If your opponent's primary focus is to control you and achieve the mount, save your energy and let them think that you have given up so they will attempt to mount, at which point you can put them in your guard with a perfectly timed Elbow Escape.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l33-s1",
+                        "sliceNumber": 1,
+                        "title": "Knee Drive Variation",
+                        "indicator": "Opponent attempts to transition to the full mount by driving their knee across your stomach",
+                        "essentialDetail": "Keep your leg flat and elbow blocking their knee at all times",
+                        "mostCommonMistake": "Failure to escape at the right time",
+                        "badGuyReminder": "Start on both knees and slide one knee across the belly to mount",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "False Surrender (17)",
+                              "Frame (10)"
+                        ],
+                        "drillOrders": "Side mount bottom start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l33-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to transition to the full mount by driving their knee across your stomach"
+                              },
+                              {
+                                    "id": "gc2-l33-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Keep your leg flat and elbow blocking their knee at all times"
+                              },
+                              {
+                                    "id": "gc2-l33-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to escape at the right time"
+                              },
+                              {
+                                    "id": "gc2-l33-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l33-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Side mount bottom start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l33-s2",
+                        "sliceNumber": 2,
+                        "title": "High Step Variation",
+                        "indicator": "Opponent attempts to mount from a sitting position by stepping their leg over your body",
+                        "essentialDetail": "Filling the space with your elbow at the right time",
+                        "mostCommonMistake": "Giving up too soon when opponent's leg is heavy",
+                        "badGuyReminder": "Proper side mount position and high step transition",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Prevention (13)",
+                              "Frame (10)"
+                        ],
+                        "drillOrders": "Side mount bottom start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l33-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent attempts to mount from a sitting position by stepping their leg over your body"
+                              },
+                              {
+                                    "id": "gc2-l33-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Filling the space with your elbow at the right time"
+                              },
+                              {
+                                    "id": "gc2-l33-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Giving up too soon when opponent's leg is heavy"
+                              },
+                              {
+                                    "id": "gc2-l33-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l33-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Side mount bottom start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l33-s3",
+                        "sliceNumber": 3,
+                        "title": "Bonus: Half Guard Pass",
+                        "indicator": "Opponent has you trapped in their half guard",
+                        "essentialDetail": "Elevating the hips to slide the knee up the center",
+                        "mostCommonMistake": "Failure to keep the underhook during the pass",
+                        "badGuyReminder": "Check your partner's base at various points throughout the technique",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Pyramid (4)",
+                              "Clock (8)"
+                        ],
+                        "drillOrders": "Half guard start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l33-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent has you trapped in their half guard"
+                              },
+                              {
+                                    "id": "gc2-l33-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Elevating the hips to slide the knee up the center"
+                              },
+                              {
+                                    "id": "gc2-l33-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to keep the underhook during the pass"
+                              },
+                              {
+                                    "id": "gc2-l33-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l33-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Half guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l34",
+            "lessonNumber": 34,
+            "technique": "Standing Armbar",
+            "position": "Standing",
+            "overview": "Although we normally recommend you take the fight to the ground, sometimes your opponent will give you an opportunity to end the fight while standing. Many confrontations begin with an opponent pushing your chest, unknowingly creating the perfect opportunity for the Standing Armbar.",
+            "mindsetMinute": "Don't grab the wrists until you are ready to commit to the full technique. By doing everything at once, your opponent has no time to react. Be sure to tug on their arm firmly so that they are thrown off balance. Don't break the arm unless it is absolutely necessary.",
+            "streetTip": "Pain Defiance: With every joint lock, there is a point where if you continue to apply pressure, it may trigger an amygdala hijack, meaning they lose cognitive function and survival mode kicks in. A broken arm is often less desirable than one that remains intact and can be used as leverage in negotiation.",
+            "slices": [
+                  {
+                        "id": "gc2-l34-s1",
+                        "sliceNumber": 1,
+                        "title": "Basic Application",
+                        "indicator": "Opponent extends their arm towards you",
+                        "essentialDetail": "Effective pull and cutoff step",
+                        "mostCommonMistake": "Lifting up rather than driving down with your ribcage",
+                        "badGuyReminder": "Notify your partner if their control of your elbow feels incorrect",
+                        "safetyTip": "Apply pressure very slowly to avoid injury",
+                        "corePrinciples": [
+                              "Tension (14)",
+                              "Overload (24)"
+                        ],
+                        "drillOrders": "Hand on chest to start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l34-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent extends their arm towards you"
+                              },
+                              {
+                                    "id": "gc2-l34-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective pull and cutoff step"
+                              },
+                              {
+                                    "id": "gc2-l34-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Lifting up rather than driving down with your ribcage"
+                              },
+                              {
+                                    "id": "gc2-l34-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply pressure very slowly to avoid injury"
+                              },
+                              {
+                                    "id": "gc2-l34-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Hand on chest to start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l34-s2",
+                        "sliceNumber": 2,
+                        "title": "Walking Application",
+                        "indicator": "Opponent pushes you backwards with an extended arm",
+                        "essentialDetail": "Timing the wrist grab and arm pull with your backward steps",
+                        "mostCommonMistake": "Over rotation of the elbow",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "False Surrender (17)",
+                              "Creation (5)"
+                        ],
+                        "drillOrders": "Hand pushing on chest to start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l34-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent pushes you backwards with an extended arm"
+                              },
+                              {
+                                    "id": "gc2-l34-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Timing the wrist grab and arm pull with your backward steps"
+                              },
+                              {
+                                    "id": "gc2-l34-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Over rotation of the elbow"
+                              },
+                              {
+                                    "id": "gc2-l34-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l34-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Hand pushing on chest to start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l34-s3",
+                        "sliceNumber": 3,
+                        "title": "Bonus: Standing Arm Drag",
+                        "indicator": "Opponent places their hand on or near your shoulder",
+                        "essentialDetail": "Effective downward swipe of the hand to facilitate the drag",
+                        "mostCommonMistake": "Failure to immediately control the opponent's hips",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Redirection (29)",
+                              "Centerline (31)"
+                        ],
+                        "drillOrders": "Hand on shoulder, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l34-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent places their hand on or near your shoulder"
+                              },
+                              {
+                                    "id": "gc2-l34-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effective downward swipe of the hand to facilitate the drag"
+                              },
+                              {
+                                    "id": "gc2-l34-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to immediately control the opponent's hips"
+                              },
+                              {
+                                    "id": "gc2-l34-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l34-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Hand on shoulder, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l35",
+            "lessonNumber": 35,
+            "technique": "Twisting Arm Control",
+            "position": "Mount",
+            "overview": "The Twisting Arm Control is a premium example of controlling the amount of damage you inflict because you can use it to set up a choke, armbar, or simply control your opponent until they surrender.",
+            "mindsetMinute": "The Twisting Arm Control is a very effective way to force your opponent to roll to their knees. If ever you decide to go for the Armbar and your opponent begins rolling, you MUST abort the Armbar and post your hands for base, otherwise you will fall. In a fight and in life, you must know when to let go.",
+            "streetTip": null,
+            "slices": [
+                  {
+                        "id": "gc2-l35-s1",
+                        "sliceNumber": 1,
+                        "title": "Basic Control (Preparation Drill)",
+                        "indicator": "Opponent is non-compliant from mount bottom and you need to increase your level of control",
+                        "essentialDetail": "Solid arm control and hip drive with back leg angled out for base",
+                        "mostCommonMistake": "No chest weight during initial arm trap",
+                        "badGuyReminder": "Try to pull your arm out to test the control",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Centerline (31)",
+                              "Creation (5)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, control for 10 seconds, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l35-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is non-compliant from mount bottom and you need to increase your level of control"
+                              },
+                              {
+                                    "id": "gc2-l35-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Solid arm control and hip drive with back leg angled out for base"
+                              },
+                              {
+                                    "id": "gc2-l35-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: No chest weight during initial arm trap"
+                              },
+                              {
+                                    "id": "gc2-l35-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l35-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, control for 10 seconds, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l35-s2",
+                        "sliceNumber": 2,
+                        "title": "Back Mount Finish",
+                        "indicator": "Opponent rolls to their knees while trapped in the Twisting Arm Control",
+                        "essentialDetail": "Completely abort the hands in preparation for back mount transition",
+                        "mostCommonMistake": "Late back hook insertion and ineffective torso alignment",
+                        "badGuyReminder": "Switch legs and get up on your shoulder for safety",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Tension (14)",
+                              "Detachment (2)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l35-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent rolls to their knees while trapped in the Twisting Arm Control"
+                              },
+                              {
+                                    "id": "gc2-l35-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Completely abort the hands in preparation for back mount transition"
+                              },
+                              {
+                                    "id": "gc2-l35-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Late back hook insertion and ineffective torso alignment"
+                              },
+                              {
+                                    "id": "gc2-l35-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l35-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l35-s3",
+                        "sliceNumber": 3,
+                        "title": "Armbar Finish",
+                        "indicator": "Opponent does not roll to their knees while trapped in Twisting Arm Control",
+                        "essentialDetail": "Invert your front leg and lean south side to facilitate the leg spin",
+                        "mostCommonMistake": "Forgetting to loop the elbow around the head prior to the leg spin",
+                        "badGuyReminder": null,
+                        "safetyTip": "Be careful not to kick your partner in the nose after the spin",
+                        "corePrinciples": [
+                              "Fork (15)",
+                              "Velocity (7)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l35-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent does not roll to their knees while trapped in Twisting Arm Control"
+                              },
+                              {
+                                    "id": "gc2-l35-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Invert your front leg and lean south side to facilitate the leg spin"
+                              },
+                              {
+                                    "id": "gc2-l35-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Forgetting to loop the elbow around the head prior to the leg spin"
+                              },
+                              {
+                                    "id": "gc2-l35-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Be careful not to kick your partner in the nose after the spin"
+                              },
+                              {
+                                    "id": "gc2-l35-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l35-s4",
+                        "sliceNumber": 4,
+                        "title": "Bonus: Forced Back Mount",
+                        "indicator": "Opponent is trapped in Twisting Arm Control and you wish to achieve back mount",
+                        "essentialDetail": "Pulling the opponent to a seated position during the crossover",
+                        "mostCommonMistake": "Falling to the nearside shoulder instead of landing on the opposite shoulder",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Momentum (21)",
+                              "Pivot (22)"
+                        ],
+                        "drillOrders": "Mount start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l35-s4-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent is trapped in Twisting Arm Control and you wish to achieve back mount"
+                              },
+                              {
+                                    "id": "gc2-l35-s4-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Pulling the opponent to a seated position during the crossover"
+                              },
+                              {
+                                    "id": "gc2-l35-s4-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Falling to the nearside shoulder instead of landing on the opposite shoulder"
+                              },
+                              {
+                                    "id": "gc2-l35-s4-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l35-s4-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Mount start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      },
+      {
+            "id": "gc2-l36",
+            "lessonNumber": 36,
+            "technique": "Double Underhook Pass",
+            "position": "Guard",
+            "overview": "In the unlikely event that you find yourself in your opponent's closed guard during a street fight, you can use the Double Underhook Guard Pass to break their guard and get to a more powerful position of control.",
+            "mindsetMinute": "When you find yourself inside the closed guard, don't be in a hurry to pass. Time is on your side. When the time is right, establish your posture and use strikes to break the guard, and then use the Double Underhook Pass to achieve the side mount.",
+            "streetTip": "The widely accepted definition of 'self-defense' is the right to prevent suffering force or violence through the use of a sufficient level of counteracting force or violence. The two most important considerations are: 1) Is there an imminent threat? and 2) Is your response proportional?",
+            "slices": [
+                  {
+                        "id": "gc2-l36-s1",
+                        "sliceNumber": 1,
+                        "title": "Open Guard Variation",
+                        "indicator": "Opponent has you inside their guard with their legs uncrossed",
+                        "essentialDetail": "Dip the shoulder under the knee and drive body weight forward for an effective 'stack'",
+                        "mostCommonMistake": "Failure to keep your head over your opponent's head during the stack",
+                        "badGuyReminder": null,
+                        "safetyTip": "Tighten up your core (bad guy) to protect your lower back during the stack",
+                        "corePrinciples": [
+                              "Overload (24)",
+                              "Mobility (30)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l36-s1-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent has you inside their guard with their legs uncrossed"
+                              },
+                              {
+                                    "id": "gc2-l36-s1-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Dip the shoulder under the knee and drive body weight forward for an effective 'stack'"
+                              },
+                              {
+                                    "id": "gc2-l36-s1-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failure to keep your head over your opponent's head during the stack"
+                              },
+                              {
+                                    "id": "gc2-l36-s1-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Tighten up your core (bad guy) to protect your lower back during the stack"
+                              },
+                              {
+                                    "id": "gc2-l36-s1-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l36-s2",
+                        "sliceNumber": 2,
+                        "title": "Closed Guard Variation",
+                        "indicator": "Opponent crosses their feet and establishes the closed guard",
+                        "essentialDetail": "Solid posture and well-placed distraction strikes",
+                        "mostCommonMistake": "Rushing to create posture instead of focusing on safe hands and submission prevention",
+                        "badGuyReminder": null,
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "False Surrender (17)",
+                              "Centerline (31)",
+                              "Posture (16)"
+                        ],
+                        "drillOrders": "Guard start, 1 rep, reverse roles",
+                        "isBonusSlice": false,
+                        "steps": [
+                              {
+                                    "id": "gc2-l36-s2-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent crosses their feet and establishes the closed guard"
+                              },
+                              {
+                                    "id": "gc2-l36-s2-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Solid posture and well-placed distraction strikes"
+                              },
+                              {
+                                    "id": "gc2-l36-s2-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Rushing to create posture instead of focusing on safe hands and submission prevention"
+                              },
+                              {
+                                    "id": "gc2-l36-s2-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l36-s2-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "gc2-l36-s3",
+                        "sliceNumber": 3,
+                        "title": "Bonus: Knee Split Guard Pass",
+                        "indicator": "Opponent maintains closed guard and you aren't allowed to use strikes to open their guard",
+                        "essentialDetail": "Effectively pinning the opponent's hips to the ground while you use the knee to create tension",
+                        "mostCommonMistake": "Failing to prevent opponent from creating distance after the ankles pop open",
+                        "badGuyReminder": "Try to keep your legs crossed at various intensity levels",
+                        "safetyTip": null,
+                        "corePrinciples": [
+                              "Tension (14)",
+                              "Centerline (31)"
+                        ],
+                        "drillOrders": "Closed guard start, 1 rep, reverse roles",
+                        "isBonusSlice": true,
+                        "steps": [
+                              {
+                                    "id": "gc2-l36-s3-st1",
+                                    "stepNumber": 1,
+                                    "description": "Recognize: Opponent maintains closed guard and you aren't allowed to use strikes to open their guard"
+                              },
+                              {
+                                    "id": "gc2-l36-s3-st2",
+                                    "stepNumber": 2,
+                                    "description": "Position: Effectively pinning the opponent's hips to the ground while you use the knee to create tension"
+                              },
+                              {
+                                    "id": "gc2-l36-s3-st3",
+                                    "stepNumber": 3,
+                                    "description": "Control: Failing to prevent opponent from creating distance after the ankles pop open"
+                              },
+                              {
+                                    "id": "gc2-l36-s3-st4",
+                                    "stepNumber": 4,
+                                    "description": "Safety: Apply safely; communicate taps."
+                              },
+                              {
+                                    "id": "gc2-l36-s3-st5",
+                                    "stepNumber": 5,
+                                    "description": "Finish/Drill: Closed guard start, 1 rep, reverse roles"
+                              }
+                        ]
+                  }
+            ]
+      }
+]
+  };
