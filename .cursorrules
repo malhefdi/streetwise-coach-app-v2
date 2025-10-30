@@ -1,0 +1,283 @@
+# Streetwise Coach App - AI Agent Context Module
+
+This context module provides essential information for AI agents working on the Streetwise Coach application. Read this before making any code changes.
+
+---
+
+## Project Overview
+
+**Project Name**: Streetwise Coach App v2  
+**Framework**: Next.js 13.4+ with App Router  
+**Language**: TypeScript (strict mode)  
+**UI Library**: PrimeReact 10.2+ (Sakai template)  
+**State**: Client-side localStorage only (no Redux/Zustand)  
+**Purpose**: Martial arts coaching platform for GC2/BBS1 curricula
+
+---
+
+## Architecture Principles
+
+### Layer Separation
+1. **Presentation**: `app/*`, `features/*`, `layout/*` - UI and routing
+2. **Service**: `core/services/*` - Business logic (functional, no classes)
+3. **Domain**: `core/domain/*.types.ts` - Type definitions and interfaces
+4. **Data**: `data/*.curriculum.v1.ts` - Static curriculum data
+
+### Key Architectural Decisions
+- **No External State Management**: Use React hooks + localStorage only
+- **Functional Services**: All services export functions, never classes
+- **Type-First**: All domain types defined before implementation
+- **Feature-Based Components**: Group UI components by feature domain
+- **Static Curriculum**: Curriculum data is read-only TypeScript constants
+
+---
+
+## Code Style and Conventions
+
+### TypeScript
+- **Strict Mode**: Always enabled
+- **Type Definitions**: All in `core/domain/*.types.ts`
+- **Type vs Interface**: Use `type` for unions/primitives, `interface` for objects
+- **No `any`**: Use `unknown` if type is truly unknown
+
+### Imports
+```typescript
+// ✅ CORRECT: Use @/ alias for absolute imports
+import { getCurriculum } from '@/core/services/curriculumService';
+import type { Lesson } from '@/core/domain/curriculum.types';
+
+// ❌ WRONG: Relative imports for cross-feature access
+import { getCurriculum } from '../../../core/services/curriculumService';
+```
+
+### Components
+```typescript
+// ✅ CORRECT: Client components must have 'use client'
+'use client';
+import { Button } from 'primereact/button';
+
+export default function MyComponent() {
+  return <Button label="Click" />;
+}
+
+// ✅ CORRECT: Page components use default export
+export default function Page() {
+  return <div>Page content</div>;
+}
+```
+
+### Services (Functional Pattern)
+```typescript
+// ✅ CORRECT: Functional exports, error handling
+export function startSession(seed?: Partial<CoachingSession>): CoachingSession {
+  const session: CoachingSession = {
+    id: crypto.randomUUID(),
+    when: new Date().toISOString(),
+    kind: seed?.kind ?? 'private',
+    studentIds: seed?.studentIds ?? [],
+    events: [],
+  };
+  try {
+    storage.set(`session:${session.id}`, session);
+  } catch (error) {
+    console.error('Failed to persist session:', error);
+  }
+  return session;
+}
+
+// ❌ WRONG: Class-based services
+class SessionService {}
+```
+
+### Formatting
+- **Indent**: 4 spaces (see `.prettierrc.json`)
+- **Quotes**: Single quotes
+- **Semicolons**: Required
+- **Line Width**: 250 characters
+- **Trailing Commas**: No (Prettier config)
+
+---
+
+## Domain Model Quick Reference
+
+### ID Naming Patterns
+```
+Curriculum: 'gc2' | 'bbs1'
+Lesson:     '{curriculumId}-l{number}'        → 'gc2-l1'
+Slice:      '{lessonId}-s{number}'            → 'gc2-l1-s1'
+Step:       '{sliceId}-st{number}'            → 'gc2-l1-s1-st1'
+Drill:      '{lessonId}-drill-{number}'       → 'gc2-l01-drill-1'
+Session:    UUID (crypto.randomUUID())
+Student:    StudentId (string)
+```
+
+### Confidence Scale
+```typescript
+type Confidence = 1 | 2 | 3;
+```
+
+### Observation Types
+```typescript
+type Observation =
+  | { type: 'step-assessed'; stepId: Id; confidence: Confidence; notes?: string; nextAction?: 'Teach' | 'Review' | 'Reteach' }
+  | { type: 'slice-assessed'; sliceId: Id; confidence: Confidence; notes?: string; nextAction?: 'Teach' | 'Review' | 'Reteach' }
+  | { type: 'timer'; label: string; start: number; stop: number };
+```
+
+---
+
+## File Structure Guidelines
+
+### Where to Create New Files
+
+**New Page Route**
+```
+app/(main)/new-feature/page.tsx
+```
+
+**New Feature Component**
+```
+features/new-feature/NewFeatureComponent.tsx
+```
+
+**New Domain Type**
+```
+core/domain/new-feature.types.ts
+```
+
+**New Service**
+```
+core/services/newFeatureService.ts
+```
+
+**New Static Data**
+```
+data/new-curriculum.curriculum.v1.ts
+```
+
+### Naming Conventions
+- **Files**: kebab-case with extensions
+- **Components**: PascalCase
+- **Functions**: camelCase
+- **Types/Interfaces**: PascalCase
+
+---
+
+## Common Patterns
+
+### Storage Operations
+```typescript
+try {
+  const session = storage.get<CoachingSession>(`session:${id}`, defaultSession);
+} catch (error) {
+  console.error('Storage error:', error);
+}
+storage.set<CoachingSession>(`session:${id}`, updated);
+```
+
+### Error Handling
+```typescript
+export const getCurriculum = (id: string) => {
+  const c = REGISTRY[id];
+  if (!c) throw new Error('Curriculum not found: ' + id);
+  return c;
+};
+```
+
+### React Hooks Pattern
+```typescript
+export function useStudents() {
+  const [students, setStudents] = useState<Student[]>([]);
+  useEffect(() => {
+    setStudents(storage.get<Student[]>('students', []));
+  }, []);
+  const addStudent = (student: Student) => {
+    const updated = [...students, student];
+    setStudents(updated);
+    storage.set('students', updated);
+  };
+  return { students, addStudent };
+}
+```
+
+### PrimeReact Usage
+```typescript
+import { Button } from 'primereact/button';
+import { Dropdown } from 'primereact/dropdown';
+```
+
+---
+
+## Important Business Rules
+
+### Session Management
+- Sessions are immutable; observations are append-only
+- Observations maintain chronological order
+- All timestamps in ISO format
+- Session IDs are UUIDs
+
+### Curriculum Access
+- Curriculum data is read-only
+- Use `getCurriculum(id)` from `curriculumService.ts`
+- IDs follow hierarchical patterns
+
+### Assessment Recording
+- Confidence scale: 1, 2, 3
+- Next actions: 'Teach' | 'Review' | 'Reteach'
+- Persist immediately to localStorage
+
+### Data Persistence
+- Use `core/services/storageService.ts`
+- Handle failures gracefully
+- Fallback to empty arrays/objects on error
+
+---
+
+## Development Workflow
+
+### Commands
+```
+npm run dev
+npm run build
+npm run lint
+npm run format
+npm run migrate:gc2
+npm run migrate:bbs1
+```
+
+### Process
+1. Review domain types and services
+2. Follow naming and file structure conventions
+3. Use strict TypeScript
+4. Add error handling for storage operations
+5. Format with Prettier before committing
+
+---
+
+## What NOT to Do
+
+- Do not add external state management libraries
+- Do not write class-based services
+- Do not modify curriculum data at runtime
+- Do not use `any` types
+- Do not use deep relative imports across features
+- Do not skip error handling
+
+---
+
+## Key Files to Reference
+
+- Documentation: `ARCHITECTURE.md`, `DOMAIN_MODEL.md`, `UX_FLOWS.md`, `AGENTS.md`, `PRD.md`
+- Domain: `core/domain/*.types.ts`
+- Services: `core/services/*.ts`
+- UI: `features/*/*.tsx`
+- Pages: `app/(main)/*/page.tsx`
+- Data: `data/*.curriculum.v1.ts`
+
+---
+
+**Last Updated**: 2024  
+**Maintained By**: Development Team  
+**Sync Frequency**: Update with each architectural change
+
+

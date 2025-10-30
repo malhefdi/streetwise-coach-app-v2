@@ -8,7 +8,8 @@
     "start": "next start",
     "format": "prettier --write \"{app,demo,layout,types}/**/*.{js,ts,tsx,d.ts}\"",
     "lint": "next lint",
-    "migrate:gc2": "tsx scripts/migrate-gc2.ts"
+    "migrate:gc2": "tsx scripts/migrate-gc2.ts",
+    "migrate:bbs1": "tsx scripts/migrate-bbs1.ts"
   },
   "dependencies": {
     "@types/node": "20.3.1",

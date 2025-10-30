@@ -4,13 +4,21 @@ import { useMemo, useState } from 'react';
 import { Dropdown } from 'primereact/dropdown';
 import { Button } from 'primereact/button';
 import SliceAssessmentCard from './SliceAssessmentCard';
-import { listLessons } from '@/core/services/curriculumService';
+import { getCurriculum } from '@/core/services/curriculumService';
 import { startSession, appendObservation } from '@/core/services/sessionService';
 import type { Confidence } from '@/core/domain/session.types';
 import type { Lesson } from '@/core/domain/curriculum.types';
 
+const curriculumOptions = [
+  { label: 'Gracie Combatives 2.0', value: 'gc2' },
+  { label: 'Master Cycle — Blue Belt Stripe 1', value: 'bbs1' }
+];
+
 export default function CoachSessionView() {
-  const lessons = listLessons('gc2'); // later: load by plan or curriculum selector
+  const [selectedCurriculum, setSelectedCurriculum] = useState('gc2');
+  const curriculum = getCurriculum(selectedCurriculum);
+  const lessons = curriculum.lessons;
+  
   const [lessonId, setLessonId] = useState(lessons[0]?.id);
   const lesson: Lesson | undefined = useMemo(() => lessons.find(l => l.id === lessonId), [lessons, lessonId]);
 
@@ -25,10 +33,30 @@ export default function CoachSessionView() {
     appendObservation(sessionId, { type: 'slice-assessed', sliceId, confidence: c, notes });
   };
 
+  // Reset lesson selection when curriculum changes
+  const handleCurriculumChange = (e: any) => {
+    setSelectedCurriculum(e.value);
+    const newCurriculum = getCurriculum(e.value);
+    setLessonId(newCurriculum.lessons[0]?.id);
+  };
+
   return (
     <div className="grid">
       <div className="col-12">
         <div className="surface-card p-4 shadow-1 border-round">
+          <div className="flex align-items-end gap-3 mb-3">
+            <div className="flex-1">
+              <label className="block text-900 font-medium mb-2">Curriculum</label>
+              <Dropdown
+                value={selectedCurriculum}
+                onChange={handleCurriculumChange}
+                options={curriculumOptions}
+                className="w-full mb-3"
+              />
+            </div>
+            <Button label="End Session" severity="secondary" disabled />
+          </div>
+
           <div className="flex align-items-end gap-3 mb-3">
             <div className="flex-1">
               <label className="block text-900 font-medium mb-2">Lesson</label>
@@ -39,7 +67,6 @@ export default function CoachSessionView() {
                 className="w-full"
               />
             </div>
-            <Button label="End Session" severity="secondary" disabled />
           </div>
 
           {lesson && <div className="text-900 text-xl font-semibold mb-2">{lesson.technique}</div>}
