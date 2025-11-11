@@ -1,81 +1,96 @@
+import { getSupabaseClient } from './supabase/client';
 import type { Student, StudentId } from '@/core/domain/students.types';
+import type { Database } from '@/types/supabase';
 
-const KEY = 'sw_students';
+type DbStudent = Database['public']['Tables']['students']['Row'];
+type DbStudentInsert = Database['public']['Tables']['students']['Insert'];
 
-const genId = () =>
-  typeof crypto !== 'undefined' && 'randomUUID' in crypto
-    ? crypto.randomUUID()
-    : `s_${Math.random().toString(36).slice(2)}`;
-
-function loadRaw(): any[] {
-  try { return JSON.parse(localStorage.getItem(KEY) || '[]'); }
-  catch { return []; }
-}
-function save(rows: Student[]) {
-  localStorage.setItem(KEY, JSON.stringify(rows));
-}
-
-function normaliseRow(r: any): Student | null {
-  if (!r) return null;
-
-  // accept legacy { name } and map to fullName
-  const fullName = (r.fullName ?? r.name ?? '').toString().trim();
-  if (!fullName) return null;
-
-  const now = new Date().toISOString();
-  return {
-    id: (r.id as string) ?? genId(),
-    fullName,
-    nickname: r.nickname ?? undefined,
-    phone: r.phone ?? undefined,
-    email: r.email ?? undefined,
-    rank: r.rank ?? undefined,
-    notes: r.notes ?? undefined,
-    createdAt: (r.createdAt as string) ?? now,
-    updatedAt: (r.updatedAt as string) ?? now,
-  };
+// Map database row to domain model
+function toDomain(row: DbStudent): Student {
+    return {
+        id: row.id,
+        fullName: row.full_name,
+        nickname: row.nickname ?? undefined,
+        phone: row.phone ?? undefined,
+        email: row.email ?? undefined,
+        rank: row.rank ?? undefined,
+        notes: row.notes ?? undefined,
+        createdAt: row.created_at,
+        updatedAt: row.updated_at,
+    };
 }
 
-function migrateIfNeeded(): Student[] {
-  const raw = loadRaw();
-  let changed = false;
-
-  const normalised = raw.map(normaliseRow).filter(Boolean) as Student[];
-
-  // If the normalised length differs or any row changed shape, persist the cleaned copy.
-  if (normalised.length !== raw.length) changed = true;
-  if (changed) save(normalised);
-
-  return normalised;
+// Map domain model to database insert
+function toInsert(student: Omit<Student, 'id' | 'createdAt' | 'updatedAt'>, coachId: string): DbStudentInsert {
+    return {
+        coach_id: coachId,
+        full_name: student.fullName,
+        nickname: student.nickname,
+        phone: student.phone,
+        email: student.email,
+        rank: student.rank,
+        notes: student.notes,
+    };
 }
 
-function safeName(x: Partial<Student>) {
-  return (x.fullName ?? '').toString();
+export async function listStudents(): Promise<Student[]> {
+    const supabase = getSupabaseClient();
+
+    const { data, error } = await supabase.from('students').select('*').order('full_name', { ascending: true });
+
+    if (error) throw error;
+    return (data || []).map(toDomain);
 }
 
-export function listStudents(): Student[] {
-  const rows = migrateIfNeeded();
-  return rows.sort((a, b) => safeName(a).localeCompare(safeName(b)));
+export async function getStudent(id: StudentId): Promise<Student | undefined> {
+    const supabase = getSupabaseClient();
+
+    const { data, error } = await supabase.from('students').select('*').eq('id', id).single();
+
+    if (error) {
+        if (error.code === 'PGRST116') return undefined; // Not found
+        throw error;
+    }
+
+    return toDomain(data);
 }
 
-export function getStudent(id: StudentId): Student | undefined {
-  return migrateIfNeeded().find(s => s.id === id);
+export async function createStudent(student: Omit<Student, 'id' | 'createdAt' | 'updatedAt'>): Promise<Student> {
+    const supabase = getSupabaseClient();
+
+    // Get current user
+    const {
+        data: { user },
+    } = await supabase.auth.getUser();
+    if (!user) throw new Error('Not authenticated');
+
+    const { data, error } = await supabase.from('students').insert(toInsert(student, user.id)).select().single();
+
+    if (error) throw error;
+    return toDomain(data);
 }
 
-export function createStudent(p: Omit<Student,'id'|'createdAt'|'updatedAt'>): Student {
-  const now = new Date().toISOString();
-  const s: Student = { id: genId(), createdAt: now, updatedAt: now, ...p };
-  const all = migrateIfNeeded(); all.push(s); save(all); return s;
+export async function updateStudent(id: StudentId, patch: Partial<Student>): Promise<Student> {
+    const supabase = getSupabaseClient();
+
+    const updates: Partial<DbStudentInsert> = {};
+    if (patch.fullName) updates.full_name = patch.fullName;
+    if (patch.nickname !== undefined) updates.nickname = patch.nickname;
+    if (patch.phone !== undefined) updates.phone = patch.phone;
+    if (patch.email !== undefined) updates.email = patch.email;
+    if (patch.rank !== undefined) updates.rank = patch.rank;
+    if (patch.notes !== undefined) updates.notes = patch.notes;
+
+    const { data, error } = await supabase.from('students').update(updates).eq('id', id).select().single();
+
+    if (error) throw error;
+    return toDomain(data);
 }
 
-export function updateStudent(id: StudentId, patch: Partial<Student>): Student {
-  const all = migrateIfNeeded();
-  const i = all.findIndex(s => s.id === id);
-  if (i < 0) throw new Error('Student not found');
-  const updated = { ...all[i], ...patch, id, updatedAt: new Date().toISOString() };
-  all[i] = updated; save(all); return updated;
-}
+export async function deleteStudent(id: StudentId): Promise<void> {
+    const supabase = getSupabaseClient();
 
-export function deleteStudent(id: StudentId) {
-  save(migrateIfNeeded().filter(s => s.id !== id));
+    const { error } = await supabase.from('students').delete().eq('id', id);
+
+    if (error) throw error;
 }
